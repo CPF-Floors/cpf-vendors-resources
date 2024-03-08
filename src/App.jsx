@@ -1,34 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+//
+import Layout from './Layout'
+import TechnnicalData from './Pages/TechnnicalData'
+import Merch from './Pages/Merch'
+import PhotoBank from './Pages/PhotoBank'
+
+import PhotoBankDeco54 from './PhotoBanks/PhotoBankDeco54'
+import PhotoBankSpiritXl from './PhotoBanks/PhotoBankSpiritXl'
+import PhotoBankkeys from './PhotoBanks/PhotoBankkeys'
+import PhotoBankProject from './PhotoBanks/PhotoBankProject'
+import PhotoBankHydrowood from './PhotoBanks/PhotoBankHydrowood'
+import PhotoBankQuick48 from './PhotoBanks/PhotoBankQuick48'
+import PhotoBankDecotile from './PhotoBanks/PhotoBankDecotile'
+import PhotoBankEvolve from './PhotoBanks/PhotoBankEvolve'
+import PhotoBankSupreme from './PhotoBanks/PhotoBankSupreme'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Layout />}></Route>
+      <Route path='/technnical-data' element={<TechnnicalData />}/>
+      <Route path='/photo-bank' element={<PhotoBank />}/>
+      <Route path='/merch' element={<Merch />}/>
+
+      //PHOTO BANKS
+      
+      <Route path='/photo-bank/deco-54' element={<PhotoBankDeco54 />} />
+      <Route path='/photo-bank/spirit-xl' element={<PhotoBankSpiritXl />} />
+      <Route path='/photo-bank/keys' element={<PhotoBankkeys />} />
+      <Route path='/photo-bank/project' element={<PhotoBankProject />} />
+      <Route path='/photo-bank/hydrowood' element={<PhotoBankHydrowood />} />
+      <Route path='/photo-bank/quick48' element={<PhotoBankQuick48 />} />
+      <Route path='/photo-bank/decotile' element={<PhotoBankDecotile />} />
+      <Route path='/photo-bank/evolve' element={<PhotoBankEvolve />} />
+      <Route path='/photo-bank/supreme' element={<PhotoBankSupreme />} />
+    </Routes>
+  </BrowserRouter>
   )
 }
 
