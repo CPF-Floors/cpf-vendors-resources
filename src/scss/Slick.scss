@@ -2,13 +2,20 @@
     height: 700px;
     margin: 60px 0;
     overflow: hidden;
+
     .slick-slide{
         display: flex;
         justify-content: center;
         align-items: center;
         height: 600px;
         text-align: center;
-        margin: 0 !important;
+    }
+    .slick-list{
+        width: 100%;
+        padding: 0;
+    }
+    .slick-dots{
+        margin-bottom: 20px;
     }
     a{
         background-color: black;
@@ -49,16 +56,16 @@
 
 @media(max-width:940px){
     .slick-slider{
-        margin: 0;
-        padding: 0;
+        height: auto;
+        width: 100%;
         .slick-slide{
-            height: 500px;
+            height: 600px;
         }
 
     }
     .view-1, .view-2, .view-3{
-        height: 320px;
-        width: 320px !important;
+        height: 340px;
+        width: 340px !important;
     }
 }
 
