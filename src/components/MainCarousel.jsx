@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -45,7 +46,12 @@ function Responsive() {
     ],
   };
   return (
-    <div className="slider-container">
+    <motion.div
+      className="slider-container"
+      initial={{ y: 400, opcacity: 0 }}
+      whileInView={{ y: 0, opcacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <Slider {...settings}>
         <div>
           <div className="view-1"></div>
@@ -62,7 +68,7 @@ function Responsive() {
           <Link to="/merch">Merch</Link>
         </div>
       </Slider>
-    </div>
+    </motion.div>
   );
 }
 
