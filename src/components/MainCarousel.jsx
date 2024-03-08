@@ -7,36 +7,63 @@ import "slick-carousel/slick/slick-theme.css";
 
 import "../scss/Slick.scss";
 
-export default function SimpleSlider() {
+function Responsive() {
   var settings = {
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: false,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+        },
+      },
+    ],
   };
   return (
-    <Slider {...settings}>
-
-        <div className="view">
-          <Link to="/technnical-data">
-            <h3>Technical Data</h3>
-          </Link>
+    <div className="slider-container">
+      <Slider {...settings}>
+        <div>
+          <div className="view-1"></div>
+          <Link to="/technnical-data">Technnical</Link>
         </div>
 
-        <div className="view-2">
-          <Link to="/photo-bank">
-          <h3>Photo Bank</h3>
-          </Link>
-          
+        <div>
+          <div className="view-2"></div>
+          <Link to="/photo-bank">Photo Bank</Link>
         </div>
 
-        <div className="view-3">
-          <Link to="/merch">
-            <h3>Merch</h3>
-          </Link>
+        <div>
+          <div className="view-3"></div>
+          <Link to="/merch">Merch</Link>
         </div>
-
-    </Slider>
+      </Slider>
+    </div>
   );
 }
+
+export default Responsive;

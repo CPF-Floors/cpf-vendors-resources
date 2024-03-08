@@ -13,8 +13,7 @@ function MainBanner() {
       transition={{duration:0.8}}>
         <h1>Vendors<br/> Resources</h1>
       </motion.div>
-
-      <button>Visualize it</button>
+      
     </div>
   )
 }
