@@ -11,8 +11,8 @@ function Header() {
   return (
     <>
       <header>
-        <Link to="/">
-          <img src="/cpf-floors-cuadrado-logo-02-01.png" alt="" />
+        <Link to="/cpf-vendors-resources">
+          <img src="/cpf-vendors-resources/assets/cpf-floors-cuadrado-logo-02-01.png" alt="" />
         </Link>
 
         <motion.div
