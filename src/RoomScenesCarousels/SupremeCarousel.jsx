@@ -48,6 +48,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Gaia Loreto</h3>
             </div>
 
             <div className="embla__slide">
@@ -56,6 +57,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Gaia Victoria</h3>
             </div>
 
             <div className="embla__slide">
@@ -64,6 +66,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Selena Crudo</h3>
             </div>
 
             <div className="embla__slide">
@@ -72,14 +75,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TANGO-SANTORINI-LROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
+              <h3 style={{marginTop:"40px"}}>Tango Santorini</h3>
             </div>
 
           </div>

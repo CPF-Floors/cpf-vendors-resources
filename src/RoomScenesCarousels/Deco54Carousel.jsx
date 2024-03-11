@@ -49,6 +49,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Light Deco</h3>
             </div>
 
             <div className="embla__slide">
@@ -57,6 +58,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Metal Gray</h3>
             </div>
 
             <div className="embla__slide">
@@ -65,6 +67,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Mimo Oak</h3>
             </div>
 
             <div className="embla__slide">
@@ -73,6 +76,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Natural Deco</h3>
             </div>
 
             <div className="embla__slide">
@@ -81,6 +85,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sara Oak</h3>
             </div>
 
             <div className="embla__slide">
@@ -89,6 +94,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sak White</h3>
             </div>
           </div>
         </div>

@@ -48,6 +48,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Kalas Bruno</h3>
             </div>
 
             <div className="embla__slide">
@@ -56,6 +57,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Kalas Noz</h3>
             </div>
 
             <div className="embla__slide">
@@ -64,6 +66,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Kalmar Blanco</h3>
             </div>
 
             <div className="embla__slide">
@@ -72,6 +75,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Kalmar Esencia</h3>
             </div>
 
             <div className="embla__slide">
@@ -80,6 +84,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Roble Twilight</h3>
             </div>
 
           </div>

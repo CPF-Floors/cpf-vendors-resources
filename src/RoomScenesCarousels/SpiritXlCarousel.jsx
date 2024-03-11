@@ -48,6 +48,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Balanced Oak</h3>
             </div>
 
             <div className="embla__slide">
@@ -56,6 +57,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Blass Gray</h3>
             </div>
 
             <div className="embla__slide">
@@ -64,6 +66,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Brut Oak</h3>
             </div>
 
             <div className="embla__slide">
@@ -72,6 +75,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+            <h3 style={{marginTop:"40px"}}>Cerise</h3>
             </div>
 
             <div className="embla__slide">
@@ -80,6 +84,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Coffe Cream</h3>
             </div>
 
             <div className="embla__slide">
@@ -88,6 +93,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sunset Walnut</h3>
             </div>
 
             <div className="embla__slide">
@@ -96,6 +102,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Dark Creme</h3>
             </div>
 
             <div className="embla__slide">
@@ -104,6 +111,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Slate</h3>
             </div>
           </div>
         </div>

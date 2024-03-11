@@ -48,6 +48,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Drawing</h3>
             </div>
 
             <div className="embla__slide">
@@ -56,6 +57,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Execution</h3>
             </div>
 
             <div className="embla__slide">
@@ -64,6 +66,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Inspection</h3>
             </div>
 
             <div className="embla__slide">
@@ -72,6 +75,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Let's Do It</h3>
             </div>
 
             <div className="embla__slide">
@@ -80,6 +84,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Proposition</h3>
             </div>
 
             <div className="embla__slide">
@@ -88,6 +93,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Simply Awesome</h3>
             </div>
             <div className="embla__slide">
               <img
@@ -95,6 +101,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+            `<h3 style={{marginTop:"40px"}}>Take off</h3>`
             </div>
             <div className="embla__slide">
               <img
@@ -102,6 +109,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Timeline</h3>
             </div>
           </div>
         </div>

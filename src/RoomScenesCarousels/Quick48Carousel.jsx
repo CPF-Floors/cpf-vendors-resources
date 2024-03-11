@@ -49,6 +49,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Charcoal</h3>
             </div>
 
             <div className="embla__slide">
@@ -57,6 +58,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Cherry Blossom</h3>
             </div>
 
             <div className="embla__slide">
@@ -65,6 +67,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Common Oak</h3>
             </div>
 
             <div className="embla__slide">
@@ -73,6 +76,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Dark Greige</h3>
             </div>
 
             <div className="embla__slide">
@@ -81,6 +85,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Metal Mix</h3>
             </div>
 
             <div className="embla__slide">
@@ -89,6 +94,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Rustic Pine</h3>
             </div>
             <div className="embla__slide">
               <img
@@ -96,6 +102,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+            <h3 style={{marginTop:"40px"}}>Sarah Oak</h3>
             </div>
             <div className="embla__slide">
               <img
@@ -103,6 +110,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Valley Oak</h3>
             </div>
             <div className="embla__slide">
               <img

@@ -48,6 +48,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Coastal Gray</h3>
             </div>
 
             <div className="embla__slide">
@@ -56,6 +57,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Cocoa Beach</h3>
             </div>
 
             <div className="embla__slide">
@@ -64,6 +66,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Gray Beach</h3>
             </div>
 
             <div className="embla__slide">
@@ -72,6 +75,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Light Sand</h3>
             </div>
 
             <div className="embla__slide">
@@ -80,6 +84,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sand Dunes</h3>
             </div>
 
             <div className="embla__slide">
@@ -88,6 +93,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sandy Beach</h3>
             </div>
             <div className="embla__slide">
               <img
@@ -95,6 +101,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sunset Wallnut</h3>
             </div>
           </div>
         </div>
