@@ -31,17 +31,20 @@
 
     }
     button{
-        background-color: transparent;
+        background-color: #1f1f1f;
         padding: 15px 25px;
         font-size: 15px;
-        border: 2px solid white;
+        border-radius: 8px;
+        border: none;
         color: white;
         cursor: pointer;
         transition: 0.5s;
     }
 }
 button:hover{
-    background-color: black;
+    background-color:white;
+    color: black;
+    font-weight: 700;
 }
 
 

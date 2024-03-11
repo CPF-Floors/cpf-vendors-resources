@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from "react";
 import Header from "./components/Header";
 import { Outlet } from "react-router-dom";
 import MainCarousel from "./components/MainCarousel"
+import Roomvo from "./components/Roomvo";
 import Footer from "./components/Footer";
 import MainLoadScreen from "./components/MainLoadScreen";
 import EmblaCarousel from "./components/EmblaCarousel"
@@ -20,6 +21,7 @@ function Layout() {
       <MainCarousel />
       <Divider />
       <EmblaCarousel />
+      <Roomvo />
       <Footer />
       <Outlet />
     </>

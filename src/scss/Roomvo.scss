@@ -1,0 +1,30 @@
+button{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #1a1a1a;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 15px;
+    z-index: 100;
+    transition: 0.5s;
+    cursor: pointer;
+    i{
+        color: white;
+        font-size: 35px;
+    }
+}
+button:hover{
+    background-color: #313131;
+}
+
+.roomvo-iframe{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1a1a1a;
+    z-index: 3000;
+}
