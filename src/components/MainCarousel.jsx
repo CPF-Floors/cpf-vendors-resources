@@ -55,7 +55,7 @@ function Responsive() {
       <Slider {...settings}>
         <div>
           <div className="view-1"></div>
-          <Link to="/technnical-data">Technnical</Link>
+          <Link to="/technnical-data">Technnical Data</Link>
         </div>
 
         <div>
