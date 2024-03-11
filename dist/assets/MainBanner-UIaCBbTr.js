@@ -1,0 +1,1 @@
+import{j as n}from"./index-DwxfZxDh.js";import{m as i}from"./App-OyfqCwTw.js";function s(){return n.jsx("div",{className:"main-banner",children:n.jsx(i.div,{className:"main-banner-text",initial:{y:-500,opcacity:0},animate:{y:0,opcacity:1},transition:{duration:.8},children:n.jsxs("h1",{children:["Vendors",n.jsx("br",{})," Resources"]})})})}export{s as default};
