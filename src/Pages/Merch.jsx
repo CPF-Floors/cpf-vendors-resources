@@ -12,6 +12,7 @@ import CPFBenefitsCarousel from "../MerchCarousels/CPFBenefitsCarousel"
 import ProductKitCarousel from "../MerchCarousels/ProductKitCarousel"
 import MediaKitCarousel from "../MerchCarousels/MediaKitCarousel"
 import MerchSidebar from "../Sidebars/MerchSidebar"
+import Roomvo from "../components/Roomvo"
 
 function Merch() {
   return (
@@ -28,6 +29,7 @@ function Merch() {
       <ProductKitCarousel/>
       <h2>Media & Press Kit</h2>
       <MediaKitCarousel/>
+      <Roomvo />
           
 
       </Suspense>

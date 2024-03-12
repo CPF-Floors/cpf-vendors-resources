@@ -24,9 +24,9 @@ function Header() {
         </motion.div>
 
         <nav>
-          <Link to="/merch">Merch</Link>
-          <Link to="/photo-bank">Photo Bank</Link>
-          <Link to="/technnical-data">Technnical Data</Link>
+          <Link to="/cpf-vendors-resources/merch">Merch</Link>
+          <Link to="/cpf-vendors-resources/photo-bank">Photo Bank</Link>
+          <Link to="/cpf-vendors-resources/technnical-data">Technnical Data</Link>
         </nav>
 
         <AnimatePresence initial={false}>
@@ -37,9 +37,9 @@ function Header() {
               animate={{ opacity: 1, height: 250 }}
               exit={{height:0, opacity: 0}}
             >
-              <Link to="/merch">Merch</Link>
-              <Link to="/photo-bank">Photo Bank</Link>
-              <Link to="/technnical-data">Technnical Data</Link>
+              <Link to="/cpf-vendors-resources/merch">Merch</Link>
+              <Link to="/cpf-vendors-resources/photo-bank">Photo Bank</Link>
+              <Link to="/cpf-vendors-resources/technnical-data">Technnical Data</Link>
             </motion.div>
           )}
         </AnimatePresence>

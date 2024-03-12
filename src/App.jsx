@@ -22,9 +22,9 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route index path='/cpf-vendors-resources' element={<Layout />}></Route>
-      <Route path='/technnical-data' element={<TechnnicalData />}/>
-      <Route path='/photo-bank' element={<PhotoBank />}/>
-      <Route path='/merch' element={<Merch />}/>
+      <Route path='/cpf-vendors-resources/technnical-data' element={<TechnnicalData />}/>
+      <Route path='/cpf-vendors-resources/photo-bank' element={<PhotoBank />}/>
+      <Route path='/cpf-vendors-resources/merch' element={<Merch />}/>
 
       //PHOTO BANKS
       

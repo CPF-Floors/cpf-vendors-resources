@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import PhotoBankSidebar from "../Sidebars/PhotoBankSidebar";
 import Quick48Carousel from "../RoomScenesCarousels/Quick48Carousel";
 import Quick48CarouselInstallation from "../RoomScenesCarousels/Quick48CarouselInstallation";
+import Roomvo from "../components/Roomvo";
 
 
 function PhotoBankDeco54() {
@@ -15,6 +16,7 @@ function PhotoBankDeco54() {
         <Quick48Carousel />
         <h2>Installation</h2>
         <Quick48CarouselInstallation />
+        <Roomvo />
       </div>
     </>
   );

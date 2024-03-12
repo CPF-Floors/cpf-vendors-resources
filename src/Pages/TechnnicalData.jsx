@@ -6,6 +6,7 @@ import Loader from "../components/Loader";
 import "../scss/TechnnicalData.scss"
 import {motion } from "framer-motion";
 import Footer from "../components/Footer"
+import Roomvo from "../components/Roomvo"
 
 function TechnnicalData() {
   return (
@@ -64,6 +65,7 @@ function TechnnicalData() {
           
       </motion.div>
       </Suspense>
+      <Roomvo />
       <Footer />
 
 

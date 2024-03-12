@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import PhotoBankSidebar from "../Sidebars/PhotoBankSidebar";
 import ProjectCarousel from "../RoomScenesCarousels/ProjectCarousel";
 import ProjectCarouselInstallation from "../RoomScenesCarousels/ProjectCarouselInstallation"
+import Roomvo from "../components/Roomvo";
 
 
 function PhotoBankDeco54() {
@@ -15,6 +16,7 @@ function PhotoBankDeco54() {
         <ProjectCarousel />
         <h2>Installation</h2>
         <ProjectCarouselInstallation />
+        <Roomvo />
       </div>
     </>
   );

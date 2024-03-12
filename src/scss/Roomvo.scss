@@ -1,10 +1,10 @@
-button{
+.roomvo-button{
     position: fixed;
     bottom: 0;
     right: 0;
     background-color: #1a1a1a;
     border: 1px solid white;
-    padding: 20px;
+    padding: 15px;
     border-radius: 16px;
     margin: 15px;
     z-index: 100;
@@ -15,8 +15,8 @@ button{
         font-size: 35px;
     }
 }
-button:hover{
-    background-color: #313131;
+.roomvo-button:hover{
+    background-color: #3131319c;
 }
 
 .roomvo-iframe{
@@ -25,6 +25,15 @@ button:hover{
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #1a1a1a;
+    background-color: #1a1a1aa2;
     z-index: 3000;
+    .close-iframe{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+    }
 }

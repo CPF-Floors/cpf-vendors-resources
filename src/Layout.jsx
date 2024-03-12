@@ -21,7 +21,7 @@ function Layout() {
       <MainCarousel />
       <Divider />
       <EmblaCarousel />
-      <Roomvo />
+      <Suspense fallback={<Loader />}><Roomvo /></Suspense>
       <Footer />
       <Outlet />
     </>
