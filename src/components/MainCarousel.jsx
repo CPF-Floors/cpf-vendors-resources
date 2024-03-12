@@ -55,17 +55,17 @@ function Responsive() {
       <Slider {...settings}>
         <div>
           <div className="view-1"></div>
-          <Link to="/technnical-data">Technnical Data</Link>
+          <Link to="/cpf-vendors-resources/technnical-data">Technnical Data</Link>
         </div>
 
         <div>
           <div className="view-2"></div>
-          <Link to="/photo-bank">Photo Bank</Link>
+          <Link to="/cpf-vendors-resources/photo-bank">Photo Bank</Link>
         </div>
 
         <div>
           <div className="view-3"></div>
-          <Link to="/merch">Merch</Link>
+          <Link to="/cpf-vendors-resources/merch">Merch</Link>
         </div>
       </Slider>
     </motion.div>

@@ -44,90 +44,40 @@ const RoomSceneDeco54 = () => {
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/2-SARA-OAK-Q48-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/20210311_135732-rotated.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Rustic Pine</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/5-SARA-OAK-Q48-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/8-METAL-MIX-Q48-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Metal Mix</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-SARA-OAK-Q48-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/8-CHERRY-BLOSSOM-Q48-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Cherry Blossom</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/21-METAL-MIX-Q48-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/3-SARA-OAK-Q48-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sara Oak</h3>
             </div>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/19-METAL-MIX-Q48-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/17-METAL-MIX-Q48-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/15-METAL-MIX-Q48-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/8-METAL-MIX-Q48-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/1-CHERRY-BLOSSOM-Q48-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/12-CHERRY-BLOSSOM-Q48-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/8-CHERRY-BLOSSOM-Q48-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
           </div>
         </div>
 
@@ -172,37 +122,16 @@ const RoomSceneDeco54 = () => {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/2-SARA-OAK-Q48-M.jpg" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/20210311_135732-rotated.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/5-SARA-OAK-Q48-M.jpg" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/8-METAL-MIX-Q48-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-SARA-OAK-Q48-M.jpg" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/8-CHERRY-BLOSSOM-Q48-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/21-METAL-MIX-Q48-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/19-METAL-MIX-Q48-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/17-METAL-MIX-Q48-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/15-METAL-MIX-Q48-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/8-METAL-MIX-Q48-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/1-CHERRY-BLOSSOM-Q48-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/1-CHERRY-BLOSSOM-Q48-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/12-CHERRY-BLOSSOM-Q48-M.jpg" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/3-SARA-OAK-Q48-M.jpg" />
                 </SwiperSlide>
               </Swiper>
             </motion.div>

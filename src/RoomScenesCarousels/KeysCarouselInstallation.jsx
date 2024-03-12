@@ -44,82 +44,65 @@ const RoomSceneDeco54 = () => {
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-SUNNY-OAK-KEYS-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/1-SUNSET-WALNUT-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sunset Walnut</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/9-COASTAL-GRAY-KEYS-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-SUNNY-OAK-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sunny Oak</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/2-SUNNY-OAK-KEYS-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-SANDY-BEACH-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sandy Beach</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/1-SUNNY-OAK-KEYS-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-SAND-DUNES-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Sand Dunes</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/8-SAND-DUNES-KEYS-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-GRAY-BEACH-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Gray Beach</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/6-COASTAL-GRAY-KEYS-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-COCOA-BEACH-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Cocoa Beach</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/18-SAND-DUNES-KEYS-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-COASTAL-GRAY-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/10-SAND-DUNES-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/15-COASTAL-GRAY-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/12-COASTAL-GRAY-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
+              <h3 style={{marginTop:"40px"}}>Coastal Gray</h3>
             </div>
           </div>
         </div>
@@ -165,25 +148,25 @@ const RoomSceneDeco54 = () => {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-6.png" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/1-SUNSET-WALNUT-KEYS-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-8.png" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-SUNNY-OAK-KEYS-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-10.png" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-SANDY-BEACH-KEYS-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/19-CAPPUCCINO-OAK-D54-M.jpg" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-SAND-DUNES-KEYS-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-3.png" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-GRAY-BEACH-KEYS-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-6.png" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-COCOA-BEACH-KEYS-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-8.png" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-COASTAL-GRAY-KEYS-M.jpg" />
                 </SwiperSlide>
               </Swiper>
             </motion.div>

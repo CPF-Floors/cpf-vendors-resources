@@ -28,32 +28,32 @@ const EmblaCarousel = () => {
               <img src="/cpf-vendors-resources/assets/DECO54.png" alt="" />
             </div>
           </Link>
-          <Link to="/public/photo-bank/decotile">
+          <Link to="/photo-bank/decotile" style={{margin:"30px"}}>
             <div className="embla__slide">
               <img src="/cpf-vendors-resources/assets/DECOTILE-1.png" alt="" />
             </div>
           </Link>
-          <Link to="/photo-bank/hydrowood">
+          <Link to="/photo-bank/hydrowood" style={{margin:"30px"}}>
             <div className="embla__slide">
               <img src="/cpf-vendors-resources/assets/HYDROWOOD-1.png" alt="" />
             </div>
           </Link>
-          <Link to="/photo-bank/keys">
+          <Link to="/photo-bank/keys" style={{margin:"30px"}}>
             <div className="embla__slide">
               <img src="/cpf-vendors-resources/assets/KEYS.png" alt="" />
             </div>
           </Link>
-          <Link to="/photo-bank/project">
+          <Link to="/photo-bank/project" style={{margin:"30px"}}>
             <div className="embla__slide">
               <img src="/cpf-vendors-resources/assets/PROJECT.png" alt="" />
             </div>
           </Link>
-          <Link to="/photo-bank/quick48">
+          <Link to="/photo-bank/quick48" style={{margin:"30px"}}>
             <div className="embla__slide">
               <img src="/cpf-vendors-resources/assets/QUICK48-1.png" alt="" />
             </div>
           </Link>
-          <Link to="/photo-bank/spirit-xl">
+          <Link to="/photo-bank/spirit-xl" style={{margin:"30px"}}>
             <div className="embla__slide">
               <img src="/cpf-vendors-resources/assets/SPIRIT-XL-jpg.webp" alt="" />
             </div>

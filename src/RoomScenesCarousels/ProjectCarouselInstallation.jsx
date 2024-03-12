@@ -9,11 +9,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
-import "../scss/ModalCarousel.scss"
+import "../scss/ModalCarousel.scss";
 
 const RoomSceneDeco54 = () => {
   //MODAL CAROUSEL
@@ -44,82 +44,38 @@ const RoomSceneDeco54 = () => {
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/6-TIMELINE-PROJECT-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/6-TIMELINE-PROJECT-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Timeline</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-TIMELINE-PROJECT-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/5-SIMPLY-AWESOME-PROJECT-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Simply Awesome</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/8-TIMELINE-PROJECT-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/5-PROPOSITION-PROJECT-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
+              <h3 style={{marginTop:"40px"}}>Proposition</h3>
             </div>
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/7-TIMELINE-PROJECT-M.jpg"
+                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/1-EXECUTION-PROJECT-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/5-SIMPLY-AWESOME-PROJECT-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-SIMPLY-AWESOME-PROJECT-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/2-SIMPLY-AWESOME-PROJECT-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-PROPOSITION-PROJECT-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/2-PROPOSITION-PROJECT-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/1-EXECUTION-PROJECT-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
+              <h3 style={{marginTop:"40px"}}>Execution</h3>
             </div>
           </div>
         </div>
@@ -165,34 +121,16 @@ const RoomSceneDeco54 = () => {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/6-TIMELINE-PROJECT-M.jpg" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/6-TIMELINE-PROJECT-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-TIMELINE-PROJECT-M.jpg" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/5-SIMPLY-AWESOME-PROJECT-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/8-TIMELINE-PROJECT-M.jpg" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/5-PROPOSITION-PROJECT-M.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/7-TIMELINE-PROJECT-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/5-SIMPLY-AWESOME-PROJECT-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-SIMPLY-AWESOME-PROJECT-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/2-SIMPLY-AWESOME-PROJECT-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-PROPOSITION-PROJECT-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/2-PROPOSITION-PROJECT-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/1-EXECUTION-PROJECT-M.jpg" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/1-EXECUTION-PROJECT-M.jpg" />
                 </SwiperSlide>
               </Swiper>
             </motion.div>

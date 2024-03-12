@@ -96,6 +96,39 @@ const RoomSceneDeco54 = () => {
               />
               <h3 style={{marginTop:"40px"}}>Sak White</h3>
             </div>
+            <div className="embla__slide">
+              <img
+                src="https://cpffloors.com/wp-content/uploads/2022/06/Blanc-Room-Scene2-1200x1200.webp"
+                alt=""
+                onClick={() => SetOpenModal(!openModal)}
+              />
+              <h3 style={{marginTop:"40px"}}>Blanc</h3>
+            </div>
+            <div className="embla__slide">
+              <img
+                src="https://cpffloors.com/wp-content/uploads/2019/04/Wynwood-Oak-Room-Scene-1200x1200.webp"
+                alt=""
+                onClick={() => SetOpenModal(!openModal)}
+              />
+              <h3 style={{marginTop:"40px"}}>Wynwood Oak</h3>
+            </div>
+            <div className="embla__slide">
+              <img
+                src="https://cpffloors.com/wp-content/uploads/2019/04/Light-Oak-room-scene-1200x1200.webp"
+                alt=""
+                onClick={() => SetOpenModal(!openModal)}
+              />
+              <h3 style={{marginTop:"40px"}}>Light Oak</h3>
+            </div>
+            <div className="embla__slide">
+              <img
+                src="https://cpffloors.com/wp-content/uploads/2019/04/Cappuccino-Oak-Room-Scene-1-1200x1200.webp"
+                alt=""
+                onClick={() => SetOpenModal(!openModal)}
+              />
+              <h3 style={{marginTop:"40px"}}>Cappuccino Oak</h3>
+            </div>
+
           </div>
         </div>
 
@@ -156,6 +189,18 @@ const RoomSceneDeco54 = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src="/cpf-vendors-resources/assets/Sak-White-room-scene-1200x1200-1.webp" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://cpffloors.com/wp-content/uploads/2022/06/Blanc-Room-Scene2-1200x1200.webp" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://cpffloors.com/wp-content/uploads/2019/04/Wynwood-Oak-Room-Scene-1200x1200.webp" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://cpffloors.com/wp-content/uploads/2019/04/Light-Oak-room-scene-1200x1200.webp" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://cpffloors.com/wp-content/uploads/2019/04/Cappuccino-Oak-Room-Scene-1-1200x1200.webp" />
                 </SwiperSlide>
               </Swiper>
             </motion.div>
