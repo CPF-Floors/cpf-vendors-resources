@@ -28,15 +28,15 @@ function App() {
 
       //PHOTO BANKS
       
-      <Route path='/photo-bank/deco-54' element={<PhotoBankDeco54 />} />
-      <Route path='/photo-bank/spirit-xl' element={<PhotoBankSpiritXl />} />
-      <Route path='/photo-bank/keys' element={<PhotoBankkeys />} />
-      <Route path='/photo-bank/project' element={<PhotoBankProject />} />
-      <Route path='/photo-bank/hydrowood' element={<PhotoBankHydrowood />} />
-      <Route path='/photo-bank/quick48' element={<PhotoBankQuick48 />} />
-      <Route path='/photo-bank/decotile' element={<PhotoBankDecotile />} />
-      <Route path='/photo-bank/evolve' element={<PhotoBankEvolve />} />
-      <Route path='/photo-bank/supreme' element={<PhotoBankSupreme />} />
+      <Route path='/cpf-vendors-resources/photo-bank/deco-54' element={<PhotoBankDeco54 />} />
+      <Route path='/cpf-vendors-resources/photo-bank/spirit-xl' element={<PhotoBankSpiritXl />} />
+      <Route path='/cpf-vendors-resources/photo-bank/keys' element={<PhotoBankkeys />} />
+      <Route path='/cpf-vendors-resources/photo-bank/project' element={<PhotoBankProject />} />
+      <Route path='/cpf-vendors-resources/photo-bank/hydrowood' element={<PhotoBankHydrowood />} />
+      <Route path='/cpf-vendors-resources/photo-bank/quick48' element={<PhotoBankQuick48 />} />
+      <Route path='/cpf-vendors-resources/photo-bank/decotile' element={<PhotoBankDecotile />} />
+      <Route path='/cpf-vendors-resources/photo-bank/evolve' element={<PhotoBankEvolve />} />
+      <Route path='/cpf-vendors-resources/photo-bank/supreme' element={<PhotoBankSupreme />} />
     </Routes>
   </BrowserRouter>
   )

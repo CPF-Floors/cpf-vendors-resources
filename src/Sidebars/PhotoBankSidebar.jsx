@@ -19,15 +19,15 @@ function PhotoBankSidebar() {
           >
             <div className="sidebar-container">
               <h2>Photo Bank</h2>
-              <Link to="/photo-bank/deco-54">Deco54</Link>
-              <Link to="/photo-bank/spirit-xl">Spirit XL</Link>
-              <Link to="/photo-bank/keys">Keys</Link>
-              <Link to="/photo-bank/project">Project</Link>
-              <Link to="/photo-bank/hydrowood">Hydrowood</Link>
-              <Link to ="/photo-bank/quick48">Quick48+</Link>
-              <Link to="/photo-bank/decotile">Decotile</Link>
-              <Link to="/photo-bank/evolve">Evolve</Link>
-              <Link to="/photo-bank/supreme">Supreme</Link>
+              <Link to="/cpf-vendors-resources/photo-bank/deco-54">Deco54</Link>
+              <Link to="/cpf-vendors-resources/photo-bank/spirit-xl">Spirit XL</Link>
+              <Link to="/cpf-vendors-resources/photo-bank/keys">Keys</Link>
+              <Link to="/cpf-vendors-resources/photo-bank/project">Project</Link>
+              <Link to="/cpf-vendors-resources/photo-bank/hydrowood">Hydrowood</Link>
+              <Link to ="/cpf-vendors-resources/photo-bank/quick48">Quick48+</Link>
+              <Link to="/cpf-vendors-resources/photo-bank/decotile">Decotile</Link>
+              <Link to="/cpf-vendors-resources/photo-bank/evolve">Evolve</Link>
+              <Link to="/cpf-vendors-resources/photo-bank/supreme">Supreme</Link>
             </div>
             <div className="close-sidebar" onClick={() => setIsOpen(false)}>
               <i className="fa-solid fa-chevron-left"></i>
