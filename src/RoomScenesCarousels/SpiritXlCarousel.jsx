@@ -84,7 +84,7 @@ const RoomSceneDeco54 = () => {
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
-              <h3 style={{marginTop:"40px"}}>Coffe Cream</h3>
+              <h3 style={{marginTop:"40px"}}>Coffee Cream</h3>
             </div>
 
             <div className="embla__slide">
