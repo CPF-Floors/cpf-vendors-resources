@@ -18,6 +18,7 @@ function PhotoBank() {
         <Header />
         <PhotoBankSidebar />
         <div className="photo-bank-container">
+        <img src="/cpf-vendors-resources/assets/cpf-floors-cuadrado-logo-02-01.png" alt="" />
           <h1>CPF Photo Bank</h1>
         </div>
       </Suspense>
