@@ -33,11 +33,25 @@
     z-index: 3000;
     .close-iframe{
         position: absolute;
-        height: 150px;
-        width: 150px;
-        top: 0;
-        left: 0;
+        height: 90px;
+        width: 120px;
+        top: 45px;
+        left: 85px;
         background-color: transparent;
         cursor: pointer;
+    }
+}
+
+//MEDIA QUERIES
+
+@media(max-width:940px) {
+    .roomvo-iframe{
+        .close-iframe{
+            height: 90px;
+            width: 90px;
+            top: 45px;
+            left: 25px;
+            background-color: transparent;
+        }
     }
 }

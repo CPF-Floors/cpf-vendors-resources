@@ -12,9 +12,9 @@ function PhotoBankSidebar() {
         {isOpen && (
           <motion.div
             className="sidebar"
-            initial={{ x: -1000, opacity: 1 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: -1000, opacity: 1 }}
+            initial={{ height: 0, opacity: 1 }}
+            animate={{ height: "100%", opacity: 1 }}
+            exit={{ height: 0, opacity: 1 }}
             transition={{ duration: 1 }}
           >
             <div className="sidebar-container">
@@ -30,7 +30,7 @@ function PhotoBankSidebar() {
               <Link to="/cpf-vendors-resources/photo-bank/supreme">Supreme</Link>
             </div>
             <div className="close-sidebar" onClick={() => setIsOpen(false)}>
-              <i className="fa-solid fa-chevron-left"></i>
+              <i className="fa-solid fa-chevron-up"></i>
             </div>
           </motion.div>
         )}
@@ -38,7 +38,7 @@ function PhotoBankSidebar() {
       <AnimatePresence initial={true}>
         {!isOpen && (
           <div className="open-sidebar" onClick={() => setIsOpen(true)}>
-            <i className="fa-solid fa-chevron-right"></i>
+            <i className="fa-solid fa-chevron-down"></i>
           </div>
         )}
       </AnimatePresence>
