@@ -1,6 +1,6 @@
 import React, { useRef, useCallback } from "react";
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 import useEmblaCarousel from "embla-carousel-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,11 +9,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
-import "../scss/ModalCarousel.scss"
+import "../scss/ModalCarousel.scss";
 
 const RoomSceneDeco54 = () => {
   //MODAL CAROUSEL
@@ -42,68 +42,82 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/1-SUNSET-WALNUT-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Sunset Walnut</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/1-SUNSET-WALNUT-KEYS-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Sunset Walnut</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-SUNNY-OAK-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Sunny Oak</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-SUNNY-OAK-KEYS-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Sunny Oak</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-SANDY-BEACH-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Sandy Beach</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-SANDY-BEACH-KEYS-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Sandy Beach</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-SAND-DUNES-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Sand Dunes</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-SAND-DUNES-KEYS-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Sand Dunes</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-GRAY-BEACH-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Gray Beach</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-GRAY-BEACH-KEYS-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Gray Beach</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-COCOA-BEACH-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Cocoa Beach</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-COCOA-BEACH-KEYS-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Cocoa Beach</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-COASTAL-GRAY-KEYS-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Coastal Gray</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-COASTAL-GRAY-KEYS-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Coastal Gray</h3>
+              </div>
+            </Link>
           </div>
         </div>
 

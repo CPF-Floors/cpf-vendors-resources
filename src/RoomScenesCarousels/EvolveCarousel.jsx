@@ -1,5 +1,6 @@
 import React, { useRef, useCallback } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import useEmblaCarousel from "embla-carousel-react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,11 +10,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
-import "../scss/ModalCarousel.scss"
+import "../scss/ModalCarousel.scss";
 
 const RoomSceneDeco54 = () => {
   //MODAL CAROUSEL
@@ -42,51 +43,60 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALAS-BRUNO-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Kalas Bruno</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALAS-BRUNO-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Kalas Bruno</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALAS-NOZ-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Kalas Noz</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALAS-NOZ-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Kalas Noz</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALMAR-BLANCO-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Kalmar Blanco</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALMAR-BLANCO-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Kalmar Blanco</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALMAR-ESENCIA-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Kalmar Esencia</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALMAR-ESENCIA-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Kalmar Esencia</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/ROBLE-TWILIGHT-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Roble Twilight</h3>
-            </div>
-
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/ROBLE-TWILIGHT-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Roble Twilight</h3>
+              </div>
+            </Link>
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 import React, { useRef, useCallback } from "react";
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 import useEmblaCarousel from "embla-carousel-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,11 +9,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
-import "../scss/ModalCarousel.scss"
+import "../scss/ModalCarousel.scss";
 
 const RoomSceneDeco54 = () => {
   //MODAL CAROUSEL
@@ -42,75 +42,93 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Drawing-room-scene-1-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Drawing</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Drawing-room-scene-1-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Drawing</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Execution-Room-Scene-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Execution</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Execution-Room-Scene-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Execution</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Inspection-Room-scene-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Inspection</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Inspection-Room-scene-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Inspection</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LETS-DO-IT-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Let's Do It</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LETS-DO-IT-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Let's Do It</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/PROPOSITION-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Proposition</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/PROPOSITION-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Proposition</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SIMPLY-AWESOME-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Simply Awesome</h3>
-            </div>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TAKEOFF-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            `<h3 style={{marginTop:"40px"}}>Take off</h3>`
-            </div>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TIMELINE-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Timeline</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SIMPLY-AWESOME-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Simply Awesome</h3>
+              </div>
+            </Link>
+
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TAKEOFF-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                `<h3 style={{ marginTop: "40px" }}>Take off</h3>`
+              </div>
+            </Link>
+
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TIMELINE-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Timeline</h3>
+              </div>
+            </Link>
           </div>
         </div>
 

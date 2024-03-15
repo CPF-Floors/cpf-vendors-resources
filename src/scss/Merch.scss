@@ -14,10 +14,10 @@
         color: black
     }
     .merch-card{
-        margin: 45px;
+        margin: 80px;
         img{
-            height: 500px;
-            width: 500px;
+            height: 400px;
+            width: 400px;
             border-radius: 16px;
             margin-bottom: 25px;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -31,6 +31,7 @@
 @media(max-width:940px){
     .merch-container{
         .merch-card{
+            margin: 45px;
             img{
                 height: 340px;
                 width: 340px;

@@ -1,6 +1,6 @@
 import React, { useRef, useCallback } from "react";
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 import useEmblaCarousel from "embla-carousel-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,11 +9,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
-import "../scss/ModalCarousel.scss"
+import "../scss/ModalCarousel.scss";
 
 const RoomSceneDeco54 = () => {
   //MODAL CAROUSEL
@@ -42,42 +42,49 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-LORETO-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Gaia Loreto</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-LORETO-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Gaia Loreto</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-VICTORIA-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Gaia Victoria</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-VICTORIA-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Gaia Victoria</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SELENA-CRUDO-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Selena Crudo</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SELENA-CRUDO-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Selena Crudo</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TANGO-SANTORINI-LROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Tango Santorini</h3>
-            </div>
-
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TANGO-SANTORINI-LROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Tango Santorini</h3>
+              </div>
+            </Link>
           </div>
         </div>
 

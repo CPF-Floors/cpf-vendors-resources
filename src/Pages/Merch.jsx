@@ -30,9 +30,14 @@ function Merch() {
           whileInView={{ y: 0, opcacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Link target="blank" to="https://drive.google.com/file/d/1EElmWfTw7UGnUaqHmYtXJyx_WUpmHuzX/view">
-            <motion.div className="merch-card"
-            whileHover={{ scale: 1.2, rotate: 2 }}
+          <Link
+            target="blank"
+            to="https://drive.google.com/file/d/1EElmWfTw7UGnUaqHmYtXJyx_WUpmHuzX/view"
+          >
+            <motion.div
+              className="merch-card"
+              whileInView={{ scale: 1.2, rotate: 2 }}
+              transition={{ duration: 0.5 }}
             >
               <img
                 src="/cpf-vendors-resources/assets/productguide01.png"
@@ -42,9 +47,14 @@ function Merch() {
             </motion.div>
           </Link>
 
-          <Link target="blank" to="https://www.canva.com/design/DAFvNvA3bW8/-QXgepCD3QAXOChJ8Vo-HQ/view?utm_content=DAFvNvA3bW8&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-            <motion.div className="merch-card"
-              whileHover={{ scale: 1.2, rotate: 2 }}
+          <Link
+            target="blank"
+            to="https://www.canva.com/design/DAFvNvA3bW8/-QXgepCD3QAXOChJ8Vo-HQ/view?utm_content=DAFvNvA3bW8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+          >
+            <motion.div
+              className="merch-card"
+              whileInView={{ scale: 1.2, rotate: 2 }}
+              transition={{ duration: 0.5 }}
             >
               <img
                 src="/cpf-vendors-resources/assets/productguide.png"
@@ -63,26 +73,30 @@ function Merch() {
           whileInView={{ y: 0, opcacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Link target="blank" to="https://drive.google.com/file/d/1ShT5CLoXcvRLBEf8LXtoad92xjIUsHdr/view">
-            <motion.div className="merch-card"
-              whileHover={{ scale: 1.2, rotate: 2 }}
+          <Link
+            target="blank"
+            to="https://drive.google.com/file/d/1ShT5CLoXcvRLBEf8LXtoad92xjIUsHdr/view"
+          >
+            <motion.div
+              className="merch-card"
+              whileInView={{ scale: 1.2, rotate: 2 }}
+              transition={{ duration: 0.5 }}
             >
-              <img
-                src="/cpf-vendors-resources/assets/BENEFITS.png"
-                alt=""
-              />
+              <img src="/cpf-vendors-resources/assets/BENEFITS.png" alt="" />
               <h3>CPF Benefits</h3>
             </motion.div>
           </Link>
 
-          <Link target="blank" to="https://www.canva.com/design/DAFvNvA3bW8/-QXgepCD3QAXOChJ8Vo-HQ/view?utm_content=DAFvNvA3bW8&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-            <motion.div className="merch-card"
-              whileHover={{ scale: 1.2, rotate: 2 }}
+          <Link
+            target="blank"
+            to="https://www.canva.com/design/DAFvNvA3bW8/-QXgepCD3QAXOChJ8Vo-HQ/view?utm_content=DAFvNvA3bW8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+          >
+            <motion.div
+              className="merch-card"
+              whileInView={{ scale: 1.2, rotate: 2 }}
+              transition={{ duration: 0.5 }}
             >
-              <img
-                src="/cpf-vendors-resources/assets/BENEFITS01.png"
-                alt=""
-              />
+              <img src="/cpf-vendors-resources/assets/BENEFITS01.png" alt="" />
               <h3>Interactive PDF</h3>
             </motion.div>
           </Link>
@@ -90,16 +104,20 @@ function Merch() {
 
         <h2>Product Kit</h2>
 
-
         <motion.div
           className="merch-container"
           initial={{ y: 200, opcacity: 0 }}
           whileInView={{ y: 0, opcacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Link target="blank" to="https://drive.google.com/file/d/1-fQJX4E-bHBnA43tKq2ZFNel1OGWUHQU/view">
-            <motion.div className="merch-card"
-              whileHover={{ scale: 1.2, rotate: 2 }}
+          <Link
+            target="blank"
+            to="https://drive.google.com/file/d/1-fQJX4E-bHBnA43tKq2ZFNel1OGWUHQU/view"
+          >
+            <motion.div
+              className="merch-card"
+              whileInView={{ scale: 1.2, rotate: 2 }}
+              transition={{ duration: 0.5 }}
             >
               <img
                 src="/cpf-vendors-resources/assets/productskit01.png"
@@ -109,22 +127,22 @@ function Merch() {
             </motion.div>
           </Link>
 
-          <Link target="blank" to="https://www.canva.com/design/DAFvrNd4ix4/CnE7CXPJNkz2KXhYooAObA/view?utm_content=DAFvrNd4ix4&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-            <motion.div className="merch-card"
-              whileHover={{ scale: 1.2, rotate: 2 }}
+          <Link
+            target="blank"
+            to="https://www.canva.com/design/DAFvrNd4ix4/CnE7CXPJNkz2KXhYooAObA/view?utm_content=DAFvrNd4ix4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+          >
+            <motion.div
+              className="merch-card"
+              whileInView={{ scale: 1.2, rotate: 2 }}
+              transition={{ duration: 0.5 }}
             >
-              <img
-                src="/cpf-vendors-resources/assets/productskit.png"
-                alt=""
-              />
+              <img src="/cpf-vendors-resources/assets/productskit.png" alt="" />
               <h3>Interactive PDF</h3>
             </motion.div>
           </Link>
         </motion.div>
 
-
         <h2>Media & Press Kit</h2>
-
 
         <motion.div
           className="merch-container"
@@ -132,9 +150,14 @@ function Merch() {
           whileInView={{ y: 0, opcacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Link target="blank" to="https://www.canva.com/design/DAF5Tr91stI/-edsY29hx8SCoO-p2Llptg/view?utm_content=DAF5Tr91stI&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-            <motion.div className="merch-card"
-              whileHover={{ scale: 1.2, rotate: 2 }}
+          <Link
+            target="blank"
+            to="https://www.canva.com/design/DAF5Tr91stI/-edsY29hx8SCoO-p2Llptg/view?utm_content=DAF5Tr91stI&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+          >
+            <motion.div
+              className="merch-card"
+              whileInView={{ scale: 1.2, rotate: 2 }}
+              transition={{ duration: 0.5 }}
             >
               <img
                 src="/cpf-vendors-resources/assets/MEDIAPRESSKIT.png"
@@ -144,14 +167,16 @@ function Merch() {
             </motion.div>
           </Link>
 
-          <Link target="blank" to="https://drive.google.com/file/d/1jgaY4EI4fkQbqMAvluJoM_py2OzGQkFC/view">
-            <motion.div className="merch-card"
-              whileHover={{ scale: 1.2, rotate: 2 }}
+          <Link
+            target="blank"
+            to="https://drive.google.com/file/d/1jgaY4EI4fkQbqMAvluJoM_py2OzGQkFC/view"
+          >
+            <motion.div
+              className="merch-card"
+              whileInView={{ scale: 1.2, rotate: 2 }}
+              transition={{ duration: 0.5 }}
             >
-              <img
-                src="/cpf-vendors-resources/assets/MEDIASTEPS.png"
-                alt=""
-              />
+              <img src="/cpf-vendors-resources/assets/MEDIASTEPS.png" alt="" />
               <h3>Steps Custom Made</h3>
             </motion.div>
           </Link>

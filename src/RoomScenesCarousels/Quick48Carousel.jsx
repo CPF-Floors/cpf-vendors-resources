@@ -1,6 +1,6 @@
 import React, { useRef, useCallback } from "react";
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 import useEmblaCarousel from "embla-carousel-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,11 +9,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
-import "../scss/ModalCarousel.scss"
+import "../scss/ModalCarousel.scss";
 
 const RoomSceneDeco54 = () => {
   //MODAL CAROUSEL
@@ -31,7 +31,6 @@ const RoomSceneDeco54 = () => {
   const scrollNext = useCallback(() => {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
-  
 
   return (
     <>
@@ -43,82 +42,101 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Charcoal-Room-Scene-1-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Charcoal</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Charcoal-Room-Scene-1-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Charcoal</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Cherry-Blossom-room-scene-1-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Cherry Blossom</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Cherry-Blossom-room-scene-1-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Cherry Blossom</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/COMMON-OAK-ROOM-SCENE-1-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Common Oak</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/COMMON-OAK-ROOM-SCENE-1-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Common Oak</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/DARK-GREIGE-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Dark Greige</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/DARK-GREIGE-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Dark Greige</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/METAL-MIX-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Metal Mix</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/METAL-MIX-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Metal Mix</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Rustic-Pine-Room-Scene-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Rustic Pine</h3>
-            </div>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Room-Scene-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            <h3 style={{marginTop:"40px"}}>Sarah Oak</h3>
-            </div>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/VALLEY-OAK-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Valley Oak</h3>
-            </div>
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/VINTAGE-OAK-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Rustic-Pine-Room-Scene-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Rustic Pine</h3>
+              </div>
+            </Link>
+
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Room-Scene-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Sarah Oak</h3>
+              </div>
+            </Link>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/VALLEY-OAK-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Valley Oak</h3>
+              </div>
+            </Link>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/VINTAGE-OAK-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+              </div>
+            </Link>
           </div>
         </div>
 

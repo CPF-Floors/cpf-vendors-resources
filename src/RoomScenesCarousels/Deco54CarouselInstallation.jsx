@@ -9,11 +9,12 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
-import "../scss/ModalCarousel.scss"
+import "../scss/ModalCarousel.scss";
+import { Link } from "react-router-dom";
 
 const RoomSceneDeco54 = () => {
   //MODAL CAROUSEL
@@ -42,95 +43,116 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/LIGHT-DECO-8.png"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Light Deco</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/LIGHT-DECO-8.png"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Light Deco</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/LIGHT-OAK-1.png"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Light Oak</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/LIGHT-OAK-1.png"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Light Oak</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/7-NATURAL-DECO-D54-M-2048x2048.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Natural Deco</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/7-NATURAL-DECO-D54-M-2048x2048.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Natural Deco</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/METAL-GRAY-1.png"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Metal Gray</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/METAL-GRAY-1.png"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Metal Gray</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-MIMO-OAK-D54-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Mimo Oak</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-MIMO-OAK-D54-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Mimo Oak</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-NATURAL-DECO-D54-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Natural Deco</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-NATURAL-DECO-D54-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Natural Deco</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-SAK-WHITE-D54-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Sak White</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-SAK-WHITE-D54-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Sak White</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/11-WYNWOOD-OAK-D54-M.jpg"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Wynwood Oak</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/11-WYNWOOD-OAK-D54-M.jpg"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Wynwood Oak</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-LORETO-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Gaia Loreto</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-LORETO-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Gaia Loreto</h3>
+              </div>
+            </Link>
 
-            <div className="embla__slide">
-              <img
-                src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-VICTORIA-ROOM-SCENE-1200x1200-1.webp"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-              <h3 style={{marginTop:"40px"}}>Gaia Victoria</h3>
-            </div>
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-VICTORIA-ROOM-SCENE-1200x1200-1.webp"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Gaia Victoria</h3>
+              </div>
+            </Link>
+
           </div>
         </div>
 
