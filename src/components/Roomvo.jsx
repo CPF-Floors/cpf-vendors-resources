@@ -38,7 +38,7 @@ function Roomvo() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <iframe src="https://www.roomvo.com/my/cpffloors/" style={{borderRadius:"16px"}} width="90%" height="90%" frameborder="0" scrolling="yes"></iframe>
+            <iframe src="https://www.roomvo.com/my/cpffloors/" style={{borderRadius:"16px"}} width="95%" height="95%" frameborder="0" scrolling="yes"></iframe>
             <div
               className="close-iframe"
               onClick={() => setOpenRoomvo(false)}
