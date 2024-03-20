@@ -107,6 +107,55 @@ h2{
     }
 
 }
+.inspire-banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    background-image: url('https://cpffloors.com/wp-content/uploads/2024/03/Magnet-Oak-LY-jpg.webp');
+    margin-top: 80px;
+    img{
+        margin-bottom: 40px;
+        z-index: 2;
+    }
+    p{
+        color: white;
+        font-size: 25px;
+        z-index: 2;
+    }
+    button{
+        background-color: white;
+        padding: 10px 30px;
+        border: none;
+        margin-top: 40px;
+        border-radius: 8px;
+        z-index: 2;
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+        }
+    }
+}
+.inspire-banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+
+
+
+
+
 
 
 //MEDIA QUERIES

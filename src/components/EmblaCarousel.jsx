@@ -23,6 +23,11 @@ const EmblaCarousel = () => {
     >
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
+        <Link to="/cpf-vendors-resources/photo-bank/inspire-black-edition" style={{margin:"30px"}}>
+            <div className="embla__slide">
+              <img src="https://cpffloors.com/wp-content/uploads/2024/03/PORTADAS-COLLECTION-CPF-DEALER-PORTAL_Mesa-de-trabajo-1-copia-28-jpg.webp" alt="" />
+            </div>
+          </Link>
           <Link to="/cpf-vendors-resources/photo-bank/deco-54" style={{margin:"30px"}}>
             <div className="embla__slide">
               <img src="/cpf-vendors-resources/assets/DECO54.png" alt="" />

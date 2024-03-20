@@ -15,6 +15,7 @@ import PhotoBankQuick48 from './PhotoBanks/PhotoBankQuick48'
 import PhotoBankDecotile from './PhotoBanks/PhotoBankDecotile'
 import PhotoBankEvolve from './PhotoBanks/PhotoBankEvolve'
 import PhotoBankSupreme from './PhotoBanks/PhotoBankSupreme'
+import PhotoBankInspire from './PhotoBanks/PhotoBankInspire'
 
 function App() {
 
@@ -27,7 +28,8 @@ function App() {
       <Route path='/cpf-vendors-resources/merch' element={<Merch />}/>
 
       //PHOTO BANKS
-      
+
+      <Route path='/cpf-vendors-resources/photo-bank/inspire-black-edition' element={<PhotoBankInspire />} />
       <Route path='/cpf-vendors-resources/photo-bank/deco-54' element={<PhotoBankDeco54 />} />
       <Route path='/cpf-vendors-resources/photo-bank/spirit-xl' element={<PhotoBankSpiritXl />} />
       <Route path='/cpf-vendors-resources/photo-bank/keys' element={<PhotoBankkeys />} />

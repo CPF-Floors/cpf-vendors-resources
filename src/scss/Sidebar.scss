@@ -32,7 +32,7 @@
             color: white;
             font-weight: 300;
             padding-bottom: 10px;
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid rgb(77, 77, 77);
             transition: 1.5s;
             cursor: pointer;
         }
@@ -45,30 +45,30 @@
         bottom: 10px;
         margin: 0 auto;
         background-color: rgb(109, 109, 109);
-        padding: 10px;
-        border-radius: 8px;
+        border-radius: 100px;
+        padding: 5px 0;
         cursor: pointer;
         i{
-            font-size: 35px;
+            font-size: 25px;
         }
     }
 
 }
 .open-sidebar{
     position: fixed;
-    width: 60px;
+    width: 90px;
     left: 0;
     right: 0;
     top: 100px;
     margin: 0 auto;
     background-color: #1a1a1a;
-    padding: 5px;
-    border-radius: 8px;
+    padding: 5px 0;
+    border-radius: 100px;
     text-align: center;
     z-index: 14;
     cursor: pointer;
     i{
-        font-size: 35px;
+        font-size: 25px;
         color: white;
     }
 }

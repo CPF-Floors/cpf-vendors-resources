@@ -19,6 +19,7 @@ function PhotoBankSidebar() {
           >
             <div className="sidebar-container">
               <h2>Photo Bank</h2>
+              <Link to="/cpf-vendors-resources/photo-bank/inspire-black-edition">Inspire Black Edition</Link>
               <Link to="/cpf-vendors-resources/photo-bank/deco-54">Deco54</Link>
               <Link to="/cpf-vendors-resources/photo-bank/spirit-xl">Spirit XL</Link>
               <Link to="/cpf-vendors-resources/photo-bank/keys">Keys</Link>
