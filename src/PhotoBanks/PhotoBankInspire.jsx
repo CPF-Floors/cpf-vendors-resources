@@ -13,7 +13,7 @@ function PhotoBankInspire() {
         <img src="https://cpffloors.com/wp-content/uploads/2024/03/Group-82.svg" alt="" />
         <p>Join Our Waitlist!</p>
         <button>
-            <Link blank to="https://dealers.cpffloors.com/inspire-black-edition/">
+            <Link target="blank" to="https://dealers.cpffloors.com/inspire-black-edition/">
                 Click Here!
             </Link>
         </button>

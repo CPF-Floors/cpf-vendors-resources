@@ -11,9 +11,11 @@ function Roomvo() {
       <button className="roomvo-button">
         <i
           onClick={() => setOpenRoomvo(!openRoomvo)}
-          className="fa-regular fa-eye"
-        ></i>
+          class="fa-solid fa-camera">
+        </i>
+        <p style={{color:"white", marginTop:"8px"}}>Roomvo Visualizer</p>        
       </button>
+
 
       {/* ROOMVO IFRAME */}
 

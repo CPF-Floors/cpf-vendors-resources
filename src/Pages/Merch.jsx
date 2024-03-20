@@ -66,7 +66,7 @@ function Merch() {
 
           <Link
             target="blank"
-            to="https://www.canva.com/design/DAFvNvA3bW8/-QXgepCD3QAXOChJ8Vo-HQ/view?utm_content=DAFvNvA3bW8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+            to="/cpf-vendors-resources/assets/PRODUCT GUIDE.pdf"
           >
             <motion.div
               className="merch-card"
@@ -78,7 +78,7 @@ function Merch() {
                 alt=""
               />
             </motion.div>
-            <h3>Interactive PDF</h3>
+            <h3>Product Guide</h3>
           </Link>
         </motion.div>
 
@@ -96,7 +96,7 @@ function Merch() {
         >
           <Link
             target="blank"
-            to="https://drive.google.com/file/d/1ShT5CLoXcvRLBEf8LXtoad92xjIUsHdr/view"
+            to="/cpf-vendors-resources/assets/FOLLETO BENEFICIOS CPF EDITABLE.pdf"
           >
             <motion.div
               className="merch-card"
@@ -138,7 +138,7 @@ function Merch() {
         >
           <Link
             target="blank"
-            to="https://drive.google.com/file/d/1-fQJX4E-bHBnA43tKq2ZFNel1OGWUHQU/view"
+            to="/cpf-vendors-resources/assets/KIT DE PRODUCTOS CPF EDITABLE.pdf"
           >
             <motion.div
               className="merch-card"
