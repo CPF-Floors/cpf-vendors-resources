@@ -201,7 +201,7 @@ function Merch() {
 
           <Link
             target="blank"
-            to="https://drive.google.com/file/d/1jgaY4EI4fkQbqMAvluJoM_py2OzGQkFC/view"
+            to="/cpf-vendors-resources/assets/Diptico Steps Separado.pdf"
           >
             <motion.div
               className="merch-card"
