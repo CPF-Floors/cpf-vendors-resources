@@ -7,11 +7,7 @@ import "../scss/TechnnicalData.scss";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 import SellSheetsCarousel from "../MerchCarousels/SellSheetsCarousel";
-import ProductsGuideCarousel from "../MerchCarousels/ProductsGuideCarousel";
-import CPFBenefitsCarousel from "../MerchCarousels/CPFBenefitsCarousel";
-import ProductKitCarousel from "../MerchCarousels/ProductKitCarousel";
-import MediaKitCarousel from "../MerchCarousels/MediaKitCarousel";
-import MerchSidebar from "../Sidebars/MerchSidebar";
+
 import Roomvo from "../components/Roomvo";
 
 import "../scss/Merch.scss";
