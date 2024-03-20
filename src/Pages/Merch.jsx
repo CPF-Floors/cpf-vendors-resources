@@ -21,9 +21,26 @@ function Merch() {
     <>
       <Suspense fallback={<Loader />}>
         <Header />
+
+        <>
+        <div className="merch-banner">
+            <h1>Merch</h1>
+        </div>
+        </>
+
+
+        {/* SELL SHEETS */}
+
         <h2>Sell Sheets</h2>
         <SellSheetsCarousel />
+
+
+
+
+        {/* PRODUCT GUIDE */}
+
         <h2>Products Guide</h2>
+
         <motion.div
           className="merch-container"
           initial={{ y: 200, opcacity: 0 }}
@@ -43,8 +60,8 @@ function Merch() {
                 src="/cpf-vendors-resources/assets/productguide01.png"
                 alt=""
               />
-              <h3>Cleaning & Maintenance</h3>
             </motion.div>
+            <h3>Cleaning & Maintenance</h3>
           </Link>
 
           <Link
@@ -60,10 +77,14 @@ function Merch() {
                 src="/cpf-vendors-resources/assets/productguide.png"
                 alt=""
               />
-              <h3>Interactive PDF</h3>
             </motion.div>
+            <h3>Interactive PDF</h3>
           </Link>
         </motion.div>
+
+
+
+        {/* CPF BENEFITS */}
 
         <h2>CPF Benefits</h2>
 
@@ -83,8 +104,9 @@ function Merch() {
               transition={{ duration: 0.5 }}
             >
               <img src="/cpf-vendors-resources/assets/BENEFITS.png" alt="" />
-              <h3>CPF Benefits</h3>
+              
             </motion.div>
+            <h3>CPF Benefits</h3>
           </Link>
 
           <Link
@@ -97,10 +119,14 @@ function Merch() {
               transition={{ duration: 0.5 }}
             >
               <img src="/cpf-vendors-resources/assets/BENEFITS01.png" alt="" />
-              <h3>Interactive PDF</h3>
+              
             </motion.div>
+            <h3>Interactive PDF</h3>
           </Link>
         </motion.div>
+
+
+        {/* PRODUCT KIT */}
 
         <h2>Product Kit</h2>
 
@@ -123,8 +149,9 @@ function Merch() {
                 src="/cpf-vendors-resources/assets/productskit01.png"
                 alt=""
               />
-              <h3>Products Kit</h3>
+              
             </motion.div>
+            <h3>Products Kit</h3>
           </Link>
 
           <Link
@@ -137,10 +164,14 @@ function Merch() {
               transition={{ duration: 0.5 }}
             >
               <img src="/cpf-vendors-resources/assets/productskit.png" alt="" />
-              <h3>Interactive PDF</h3>
+              
             </motion.div>
+            <h3>Interactive PDF</h3>
           </Link>
         </motion.div>
+
+
+        {/* MEDIA PRESS KIT */}
 
         <h2>Media & Press Kit</h2>
 
@@ -152,7 +183,7 @@ function Merch() {
         >
           <Link
             target="blank"
-            to="https://www.canva.com/design/DAF5Tr91stI/-edsY29hx8SCoO-p2Llptg/view?utm_content=DAF5Tr91stI&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+            to="/cpf-vendors-resources/assets/Media Press Kit.pdf"
           >
             <motion.div
               className="merch-card"
@@ -163,8 +194,9 @@ function Merch() {
                 src="/cpf-vendors-resources/assets/MEDIAPRESSKIT.png"
                 alt=""
               />
-              <h3>Interactive PDF</h3>
+              
             </motion.div>
+            <h3>Interactive PDF</h3>
           </Link>
 
           <Link
@@ -177,8 +209,9 @@ function Merch() {
               transition={{ duration: 0.5 }}
             >
               <img src="/cpf-vendors-resources/assets/MEDIASTEPS.png" alt="" />
-              <h3>Steps Custom Made</h3>
+              
             </motion.div>
+            <h3>Steps Custom Made</h3>
           </Link>
         </motion.div>
 
