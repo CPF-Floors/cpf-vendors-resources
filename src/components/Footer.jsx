@@ -11,7 +11,7 @@ function Footer() {
         <Link to="https://www.pinterest.com/cpf_floors/"><i className="fa-brands fa-pinterest-p"></i></Link>
         <Link to="https://www.linkedin.com/company/cpf-floors-llc"><i className="fa-brands fa-linkedin-in"></i></Link>
         <div>
-          <Link to="https://cpffloors.com/"><p>www.cpffloors.com</p></Link>
+          <Link target='blank' to="https://cpffloors.com/"><p>www.cpffloors.com</p></Link>
         </div>
       </div>
       <span>© 2020 - 2024 CPF FLOORS LLC. All rights reserved</span>
