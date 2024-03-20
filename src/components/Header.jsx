@@ -3,16 +3,22 @@ import { AnimatePresence, motion, transform } from "framer-motion";
 import { Link } from "react-router-dom";
 import "../scss/Header.scss";
 
-
-
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
     <>
+      <div className="web-link">
+        <Link target="blank" to="https://dealers.cpffloors.com/inspire-black-edition/">
+          Join to the Waitlist by clicking here!
+        </Link>
+      </div>
       <header>
         <Link to="/cpf-vendors-resources">
-          <img src="/cpf-vendors-resources/assets/cpf-floors-cuadrado-logo-02-01.png" alt="" />
+          <img
+            src="/cpf-vendors-resources/assets/cpf-floors-cuadrado-logo-02-01.png"
+            alt=""
+          />
         </Link>
 
         <motion.div
@@ -26,7 +32,9 @@ function Header() {
         <nav>
           <Link to="/cpf-vendors-resources/merch">Merch</Link>
           <Link to="/cpf-vendors-resources/photo-bank">Photo Bank</Link>
-          <Link to="/cpf-vendors-resources/technnical-data">Technnical Data</Link>
+          <Link to="/cpf-vendors-resources/technnical-data">
+            Technnical Data
+          </Link>
         </nav>
 
         <AnimatePresence initial={false}>
@@ -35,11 +43,13 @@ function Header() {
               className="mobile-nav"
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 250 }}
-              exit={{height:0, opacity: 0}}
+              exit={{ height: 0, opacity: 0 }}
             >
               <Link to="/cpf-vendors-resources/merch">Merch</Link>
               <Link to="/cpf-vendors-resources/photo-bank">Photo Bank</Link>
-              <Link to="/cpf-vendors-resources/technnical-data">Technnical Data</Link>
+              <Link to="/cpf-vendors-resources/technnical-data">
+                Technnical Data
+              </Link>
             </motion.div>
           )}
         </AnimatePresence>
