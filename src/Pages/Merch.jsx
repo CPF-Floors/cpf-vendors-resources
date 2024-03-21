@@ -19,9 +19,13 @@ function Merch() {
         <Header />
 
         <>
-        <div className="merch-banner">
+        <motion.div className="merch-banner"
+          initial={{y:-600}}
+          animate={{y:0}}
+          transition={{duration:2}}
+        >
             <h1>Merch</h1>
-        </div>
+        </motion.div>
         </>
 
 
@@ -45,7 +49,7 @@ function Merch() {
         >
           <Link
             target="blank"
-            to="https://drive.google.com/file/d/1EElmWfTw7UGnUaqHmYtXJyx_WUpmHuzX/view"
+            to="/cpf-vendors-resources/assets/Media Press Kit dos.pdf"
           >
             <motion.div
               className="merch-card"
@@ -53,11 +57,28 @@ function Merch() {
               transition={{ duration: 0.5 }}
             >
               <img
-                src="/cpf-vendors-resources/assets/productguide01.png"
+                src="/cpf-vendors-resources/assets/portadas-06-2.png"
                 alt=""
               />
             </motion.div>
             <h3>Cleaning & Maintenance</h3>
+          </Link>
+
+          <Link
+            target="blank"
+            to="/cpf-vendors-resources/assets/RIGID CORE VINYL FLOORS Installation Guidelines.pdf"
+          >
+            <motion.div
+              className="merch-card"
+              whileInView={{ scale: 1.2, rotate: 2 }}
+              transition={{ duration: 0.5 }}
+            >
+              <img
+                src="/cpf-vendors-resources/assets/PORTADA-MANUAL-DE-INSTALLATION.jpg"
+                alt=""
+              />
+            </motion.div>
+            <h3>Installation Manual</h3>
           </Link>
 
           <Link
@@ -92,7 +113,7 @@ function Merch() {
         >
           <Link
             target="blank"
-            to="/cpf-vendors-resources/assets/FOLLETO BENEFICIOS CPF EDITABLE.pdf"
+            to="/cpf-vendors-resources/assets/Folleto beneficios CPF.pdf"
           >
             <motion.div
               className="merch-card"
@@ -134,7 +155,7 @@ function Merch() {
         >
           <Link
             target="blank"
-            to="/cpf-vendors-resources/assets/KIT DE PRODUCTOS CPF EDITABLE.pdf"
+            to="/cpf-vendors-resources/assets/Kit de Presentacion CPF.pdf"
           >
             <motion.div
               className="merch-card"
@@ -197,7 +218,7 @@ function Merch() {
 
           <Link
             target="blank"
-            to="/cpf-vendors-resources/assets/Diptico Steps Separado.pdf"
+            to="/cpf-vendors-resources/assets/Diptico Steps Separado (1).pdf"
           >
             <motion.div
               className="merch-card"

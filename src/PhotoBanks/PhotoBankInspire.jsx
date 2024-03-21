@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import {motion} from "framer-motion"
 import PhotoBankSidebar from "../Sidebars/PhotoBankSidebar";
 import InspireCarousel from "../RoomScenesCarousels/InspireCarousel";
 import Roomvo from "../components/Roomvo"
@@ -10,8 +11,8 @@ function PhotoBankInspire() {
     <>
       <Header />
       <div className="inspire-banner">
-        <img src="https://cpffloors.com/wp-content/uploads/2024/03/Group-82.svg" alt="" />
-        <p>Join Our Waitlist!</p>
+        <motion.img src="https://cpffloors.com/wp-content/uploads/2024/03/Group-82.svg" alt="" initial={{opacity:0, scale: 3}} animate={{opacity:1, scale: 1}} transition={{duration:3}}/>
+        <motion.p initial={{opacity:0}} animate={{opacity: 1}} transition={{duration:4}}>Join Our Waitlist!</motion.p>
         <button>
             <Link target="blank" to="https://dealers.cpffloors.com/inspire-black-edition/">
                 Click Here!

@@ -29,7 +29,7 @@
     background-color: rgba(0, 0, 0, 0.336);
 }
 h2{
-    margin-top: 170px;
+    margin-top: 180px;
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
@@ -115,6 +115,7 @@ h2{
     flex-direction: column;
     height: 600px;
     width: 100%;
+    margin-bottom: 120px;
     background-image: url('https://cpffloors.com/wp-content/uploads/2024/03/Magnet-Oak-LY-jpg.webp');
     margin-top: 80px;
     img{
@@ -166,5 +167,13 @@ h2{
             height: 100px;
             margin-bottom: 35px;
         }
+    }
+    .inspire-banner{
+        img{
+            height: 80px;
+        }
+    }
+    h2{
+        font-size: 20px;
     }
 }
