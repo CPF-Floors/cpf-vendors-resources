@@ -49,7 +49,7 @@ function Merch() {
         >
           <Link
             target="blank"
-            to="/cpf-vendors-resources/assets/Media Press Kit dos.pdf"
+            to="/cpf-vendors-resources/assets/GUIA DE MANTENIMIENTO CPF separadas.pdf"
           >
             <motion.div
               className="merch-card"
