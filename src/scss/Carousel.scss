@@ -16,16 +16,18 @@
             text-decoration: none;
         }
   }
-  .embla__prev{
+.embla__prev{
     position: absolute;
     left: 0;
-    top: 40%
+    top: 40%;
+    border: 1px solid rgb(153, 153, 153) !important
 }
 
 .embla__next{
     position: absolute;
     right: 0;
-    top: 40%
+    top: 40%;
+    border: 1px solid black !important
 }
 .embla__prev:hover{
     background-color: rgb(252, 252, 252);
@@ -95,7 +97,7 @@
             }
         }
         .embla__next, .embla__prev{
-            top: 34%;
+            top: 30%;
         }
     }
   }
