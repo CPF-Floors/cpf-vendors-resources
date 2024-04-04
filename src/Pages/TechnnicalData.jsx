@@ -24,7 +24,7 @@ function TechnnicalData() {
                 transition={{duration: 1}}
           >
               <div className="section">
-                <h3>Technnical Data</h3>
+                <h3>Technnical Data - Collections</h3>
                 <Link target="blank" to="https://cpffloors.com/wp-content/uploads/2024/03/inspire-black-edition-Technical-Data.pdf">Inspire Black Edition</Link>
                 <Link target="blank" to="https://cpffloors.com/wp-content/uploads/2023/12/DECO54-Technical-Data.pdf">Deco54</Link>
                 <Link target="blank" to="https://cpffloors.com/wp-content/uploads/2023/12/KEYS-Technical-Data.pdf">Keys</Link>
@@ -34,6 +34,11 @@ function TechnnicalData() {
                 <Link target="blank" to="https://cpffloors.com/wp-content/uploads/2023/09/DECOTILE-Technical-Data.pdf">Decotile</Link>
                 <Link to="https://cpffloors.com/wp-content/uploads/2023/09/ft-finfloor-evolve-en-1.pdf">Evolve</Link>
                 <Link target="blank" to="https://cpffloors.com/wp-content/uploads/2023/09/ft-finfloor-evolve-en-1.pdf">Supreme</Link>
+              </div>
+
+              <div className="section">
+                <h3>Technnical Data - Steps</h3>
+                <Link target="blank" to="https://cpffloors.com/wp-content/uploads/2024/04/BIFOLD-CARTA-baseboard-4-1.pdf">Baseboards & Casings</Link>
               </div>
 
               <div className="section">
