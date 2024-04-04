@@ -37,7 +37,7 @@ function TechnnicalData() {
               </div>
 
               <div className="section">
-                <h3>Technnical Data - Steps</h3>
+                <h3>Technnical Data - Accessories</h3>
                 <Link target="blank" to="https://cpffloors.com/wp-content/uploads/2024/04/BIFOLD-CARTA-baseboard-4-1.pdf">Baseboards & Casings</Link>
               </div>
 
