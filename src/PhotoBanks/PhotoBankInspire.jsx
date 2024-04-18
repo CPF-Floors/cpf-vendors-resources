@@ -5,7 +5,13 @@ import PhotoBankSidebar from "../Sidebars/PhotoBankSidebar";
 import InspireCarousel from "../RoomScenesCarousels/InspireCarousel";
 import Roomvo from "../components/Roomvo";
 import { Link } from "react-router-dom";
-import { CDropdown, CDropdownToggle, CDropdownMenu, CDropdownItem } from "@coreui/react"
+import {
+  CDropdown,
+  CDropdownToggle,
+  CDropdownMenu,
+  CDropdownItem,
+} from "@coreui/react";
+
 
 function PhotoBankInspire() {
   return (
@@ -39,17 +45,16 @@ function PhotoBankInspire() {
       <div className="photobank-container" style={{ paddingBottom: "120px" }}>
         <h2>Room Scenes - Inspire Black Edition</h2>
 
-        <CDropdown>
-          <CDropdownToggle href="#" color="secondary">
-            Dropdown button
-          </CDropdownToggle>
-          <CDropdownMenu>
-            <CDropdownItem href="#">Action</CDropdownItem>
-            <CDropdownItem href="#">Another action</CDropdownItem>
-            <CDropdownItem href="#">Something else here</CDropdownItem>
-          </CDropdownMenu>
-        </CDropdown>
-
+        <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+          <CDropdown>
+            <CDropdownToggle href="#" color="secondary">
+              Select Collection
+            </CDropdownToggle>
+            <CDropdownMenu>
+              <CDropdownItem href="/cpf-vendors-resources/photo-bank/deco-54">Deco54</CDropdownItem>
+            </CDropdownMenu>
+          </CDropdown>
+        </div>
 
         <InspireCarousel />
         <Roomvo />
