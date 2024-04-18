@@ -17,6 +17,7 @@ import "../scss/Carousel.scss";
 import "../scss/ModalCarousel.scss";
 
 const RoomSceneDeco54 = () => {
+  
   //MODAL CAROUSEL
 
   const [openModal, SetOpenModal] = useState(false);

@@ -12,6 +12,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@coreui/coreui": "^5.0.0",
+    "@coreui/react": "^5.0.0",
     "embla-carousel-react": "^8.0.0",
     "framer-motion": "^11.0.5",
     "npm": "^10.5.0",

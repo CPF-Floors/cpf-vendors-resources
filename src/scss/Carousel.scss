@@ -20,14 +20,14 @@
     position: absolute;
     left: 0;
     top: 40%;
-    border: 1px solid rgb(153, 153, 153) !important
+    border: 1px solid rgb(153, 153, 153) !important;
 }
 
 .embla__next{
     position: absolute;
     right: 0;
     top: 40%;
-    border: 1px solid rgb(153, 153, 153) !important
+    border: 1px solid rgb(153, 153, 153) !important;
 }
 .embla__prev:hover{
     background-color: rgb(252, 252, 252);
@@ -84,7 +84,7 @@
     }
   }
 
-  @media (max-width:940px){
+  @media (max-width:1280px){
     .embla{
         margin: 40px 0;
         .embla__container{
@@ -92,7 +92,7 @@
                 flex: 0 0 100%;
                 margin: 10px;
                 img{
-                    max-height: 330px;
+                    max-height: 300px;
                 }
             }
         }
