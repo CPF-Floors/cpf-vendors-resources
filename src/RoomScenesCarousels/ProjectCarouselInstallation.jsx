@@ -45,7 +45,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/6-TIMELINE-PROJECT-M.jpg"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/PROJECT-TIMELINE_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -56,7 +56,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/5-SIMPLY-AWESOME-PROJECT-M.jpg"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/PROJECT-SIMPLY-AWESOME_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -67,7 +67,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/5-PROPOSITION-PROJECT-M.jpg"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/PROJECT-PROPOSITION_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -78,7 +78,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/1-EXECUTION-PROJECT-M.jpg"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/PROJECT-EXECUTION_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />

@@ -42,32 +42,11 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/20210311_135732-rotated.jpg"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Rustic Pine</h3>
-              </div>
-            </Link>
 
-            <Link style={{ margin: "25px", color: "black" }}>
+          <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/8-METAL-MIX-Q48-M.jpg"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Metal Mix</h3>
-              </div>
-            </Link>
-
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/8-CHERRY-BLOSSOM-Q48-M.jpg"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-CHERRY-BLOSSOM_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -78,7 +57,40 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/3-SARA-OAK-Q48-M.jpg"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-RUSTIC-PINE_Mesa-de-trabajo-1.png"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Rustic Pine</h3>
+              </div>
+            </Link>
+
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-SILVER-COLLAGE_Mesa-de-trabajo-1.png"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Silver Collage</h3>
+              </div>
+            </Link>
+
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-METAL-MIX-12.png"
+                  alt=""
+                  onClick={() => SetOpenModal(!openModal)}
+                />
+                <h3 style={{ marginTop: "40px" }}>Metal Mix</h3>
+              </div>
+            </Link>
+
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-SARA-OAK_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
