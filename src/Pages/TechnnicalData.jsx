@@ -1,4 +1,4 @@
-import TechSidebar from "../Sidebars/TechSidebar";
+
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import { lazy, Suspense } from "react";

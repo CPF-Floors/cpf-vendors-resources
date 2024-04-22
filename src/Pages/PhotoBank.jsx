@@ -1,4 +1,4 @@
-import PhotoBankSidebar from "../Sidebars/PhotoBankSidebar";
+
 import Header from "../components/Header";
 import { lazy, Suspense } from "react";
 import Loader from "../components/Loader";

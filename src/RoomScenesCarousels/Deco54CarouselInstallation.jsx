@@ -46,7 +46,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/LIGHT-DECO-8.png"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/DECO-54-LIGHT-DECO_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -57,7 +57,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/LIGHT-OAK-1.png"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/DECO-54-LIGHT-OAK_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -65,21 +65,11 @@ const RoomSceneDeco54 = () => {
               </div>
             </Link>
 
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/7-NATURAL-DECO-D54-M-2048x2048.jpg"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Natural Deco</h3>
-              </div>
-            </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/METAL-GRAY-1.png"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/DECO-54-METAL-GRAY_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -90,7 +80,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-MIMO-OAK-D54-M.jpg"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/DECO-54-MIMO-OAK_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -101,55 +91,11 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-NATURAL-DECO-D54-M.jpg"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/DECO-54-CAPPUCCINO-OAK-02.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
-                <h3 style={{ marginTop: "40px" }}>Natural Deco</h3>
-              </div>
-            </Link>
-
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-SAK-WHITE-D54-M.jpg"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Sak White</h3>
-              </div>
-            </Link>
-
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/11-WYNWOOD-OAK-D54-M.jpg"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Wynwood Oak</h3>
-              </div>
-            </Link>
-
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-LORETO-ROOM-SCENE-1200x1200-1.webp"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Gaia Loreto</h3>
-              </div>
-            </Link>
-
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-VICTORIA-ROOM-SCENE-1200x1200-1.webp"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Gaia Victoria</h3>
+                <h3 style={{ marginTop: "40px" }}>Cappuccino Oak</h3>
               </div>
             </Link>
 
