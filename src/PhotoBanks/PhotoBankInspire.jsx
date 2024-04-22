@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
 import { motion } from "framer-motion";
-import PhotoBankSidebar from "../Sidebars/PhotoBankSidebar";
 import InspireCarousel from "../RoomScenesCarousels/InspireCarousel";
 import Roomvo from "../components/Roomvo";
 import { Link } from "react-router-dom";
@@ -11,6 +10,9 @@ import {
   CDropdownMenu,
   CDropdownItem,
 } from "@coreui/react";
+
+import '@coreui/coreui/dist/css/coreui.min.css'
+import '../scss/index.scss'
 
 
 function PhotoBankInspire() {
@@ -41,17 +43,24 @@ function PhotoBankInspire() {
           </Link>
         </button>
       </div>
-      <PhotoBankSidebar />
       <div className="photobank-container" style={{ paddingBottom: "120px" }}>
         <h2>Room Scenes - Inspire Black Edition</h2>
 
         <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
           <CDropdown>
-            <CDropdownToggle href="#" color="secondary">
+            <CDropdownToggle href="#" className="dropdown">
               Select Collection
             </CDropdownToggle>
             <CDropdownMenu>
-              <CDropdownItem href="/cpf-vendors-resources/photo-bank/deco-54">Deco54</CDropdownItem>
+              <CDropdownItem style={{textAlign: 'center'}} href="/cpf-vendors-resources/photo-bank/decotile">Decotile</CDropdownItem>
+              <CDropdownItem style={{textAlign: 'center'}} href="/cpf-vendors-resources/photo-bank/evolve">Evolve</CDropdownItem>
+              <CDropdownItem style={{textAlign: 'center'}} href="/cpf-vendors-resources/photo-bank/hydrowood">Hydrowood</CDropdownItem>
+              <CDropdownItem style={{textAlign: 'center'}} href="/cpf-vendors-resources/photo-bank/keys">Keys</CDropdownItem>
+              <CDropdownItem style={{textAlign: 'center'}} href="/cpf-vendors-resources/photo-bank/project">Project</CDropdownItem>
+              <CDropdownItem style={{textAlign: 'center'}} href="/cpf-vendors-resources/photo-bank/quick48">Quick48</CDropdownItem>
+              <CDropdownItem style={{textAlign: 'center'}} href="/cpf-vendors-resources/photo-bank/spirit-xl">Spirit XL</CDropdownItem>
+              <CDropdownItem style={{textAlign: 'center'}} href="/cpf-vendors-resources/photo-bank/supreme">Supreme</CDropdownItem>
+              <CDropdownItem style={{textAlign: 'center'}} href="/cpf-vendors-resources/photo-bank/deco-54">Deco54</CDropdownItem>
             </CDropdownMenu>
           </CDropdown>
         </div>

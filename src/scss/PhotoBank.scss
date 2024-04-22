@@ -1,10 +1,8 @@
 .photo-bank{
-    position: fixed;
-    top: 0;
-    left: 0;
+
     height: 100vh;
     width: 100%;
-
+    padding-top: 110px ;
     margin-top: 80px;
     background-image: url('https://cpffloors.com/wp-content/uploads/2022/12/LETS-DO-IT-1200x1200.webp');
     background-repeat: no-repeat;
@@ -144,7 +142,11 @@ h2{
 
 //MEDIA QUERIES
 
-@media(max-width:940px){
+@media(max-width:1280px){
+    .photo-bank{
+        position: inherit;
+        height: 100vh;
+    }
     .photo-bank-container{
         img{
             height: 100px;
