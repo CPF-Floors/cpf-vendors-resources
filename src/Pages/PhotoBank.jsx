@@ -7,6 +7,7 @@ import EmblaCarousel from "../components/EmblaCarousel";
 
 //
 import "../scss/PhotoBank.scss";
+import { color } from "framer-motion";
 
 function PhotoBank() {
   return (
@@ -15,6 +16,10 @@ function PhotoBank() {
         <Header />
         <div className="photo-bank">
           <>
+            <div style={{marginTop: '140px', display:'flex', justifyContent: 'center', alignItems:'center',flexDirection:'column'}}>
+              <img src="https://cpffloors.com/wp-content/uploads/2023/05/CPF-FLOORS.png" style={{height:'80px'}} alt="" />
+              <h3 style={{color: 'white', fontSize: '30px'}}>Photo Bank</h3>
+            </div>
             <EmblaCarousel />
           </>
         </div>
