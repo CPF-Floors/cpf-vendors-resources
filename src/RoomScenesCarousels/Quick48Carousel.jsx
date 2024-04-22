@@ -135,6 +135,7 @@ const RoomSceneDeco54 = () => {
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
+                <h3 style={{ marginTop: "40px" }}>Vintage Oak</h3>
               </div>
             </Link>
           </div>
