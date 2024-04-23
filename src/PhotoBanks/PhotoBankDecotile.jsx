@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 
 import DecotileCarousel from "../RoomScenesCarousels/DecotileCarousel"
+import DecotileInstallation from "../RoomScenesCarousels/DecotileCarouselInstalation";
 import Roomvo from "../components/Roomvo"
 import {
   CDropdown,
@@ -35,6 +36,7 @@ function PhotoBankDeco54() {
           </CDropdown>
         </div>
         <DecotileCarousel />
+        <DecotileInstallation />
         <Roomvo />
       </div>
     </>

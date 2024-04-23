@@ -1,29 +1,18 @@
 import React, { useRef, useCallback } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Modal  from "react-modal";
 
 import useEmblaCarousel from "embla-carousel-react";
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
 import "../scss/ModalCarousel.scss";
 
 const RoomSceneDeco54 = () => {
-  //MODAL CAROUSEL
-
-  const [openModal, SetOpenModal] = useState(false);
-
-  //
-
   const [emblaRef, emblaApi] = useEmblaCarousel();
+  const [openModal, setOpenModal] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
@@ -43,12 +32,34 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
+
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://cpffloors.com/wp-content/uploads/2022/12/ELI-ROOM-SCENE-1024x1024.webp"
+                  alt=""
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://cpffloors.com/wp-content/uploads/2022/12/ELI-ROOM-SCENE-1024x1024.webp"
+                    );
+                  }}
+                />
+                <h3 style={{ marginTop: "40px" }}>Eli</h3>
+              </div>
+            </Link>
+
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
                   src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/UMA-ROOM-SCENE-1200x1200-1.webp"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/UMA-ROOM-SCENE-1200x1200-1.webp"
+                    );
+                  }}
                 />
                 <h3 style={{ marginTop: "40px" }}>Uma</h3>
               </div>
@@ -57,31 +68,31 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/MIA-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/06/IVY-ROOM-SCENE-1024x1024.webp"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://cpffloors.com/wp-content/uploads/2023/06/IVY-ROOM-SCENE-1024x1024.webp"
+                    );
+                  }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Mia</h3>
+                <h3 style={{ marginTop: "40px" }}>Ivy</h3>
               </div>
             </Link>
+
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/MAI-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2022/12/LIA-ROOM-SCENE.jpg"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Mai</h3>
-              </div>
-            </Link>
-
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIA-ROOM-SCENE-1200x1200-1.webp"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://cpffloors.com/wp-content/uploads/2022/12/LIA-ROOM-SCENE.jpg"
+                    );
+                  }}
                 />
                 <h3 style={{ marginTop: "40px" }}>Lia</h3>
               </div>
@@ -90,24 +101,35 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/IVY-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/06/MAI-ROOM-SCENE-1024x1024.webp"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://cpffloors.com/wp-content/uploads/2023/06/MAI-ROOM-SCENE-1024x1024.webp"
+                    );
+                  }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Ivy</h3>
+                <h3 style={{ marginTop: "40px" }}>Mai</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/ELI-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/06/MIA-ROOM-SCENE-1024x1024.webp"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://cpffloors.com/wp-content/uploads/2023/06/MIA-ROOM-SCENE-1024x1024.webp"
+                    );
+                  }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Eli</h3>
+                <h3 style={{ marginTop: "40px" }}>Mia</h3>
               </div>
             </Link>
+
           </div>
         </div>
 
@@ -119,61 +141,21 @@ const RoomSceneDeco54 = () => {
             <i className="fa-solid fa-arrow-right"></i>
           </button>
         </div>
+
+        <Modal
+          isOpen={openModal}
+          onRequestClose={() => setOpenModal(false)}
+          className="openModalcpf Modal"
+        >
+          <img
+            src={selectedImage}
+            alt=""
+            style={{ maxWidth: "70%", maxHeight: "70%", marginTop: "80px" }}
+          />
+          <button className="modal-button" onClick={() => setOpenModal(false)}>Close</button>
+        </Modal>
+
       </motion.div>
-
-      {/* MODAL CAROUSEL */}
-
-      <AnimatePresence initial={false}>
-        {openModal && (
-          <>
-            <motion.div
-              className="modal-carousel"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-            >
-              <div
-                className="close-modal-carousel"
-                onClick={() => SetOpenModal(false)}
-              >
-                <i className="fa-solid fa-xmark"></i>
-              </div>
-
-              {/*CAROUSEL*/}
-
-              <Swiper
-                spaceBetween={30}
-                effect={"fade"}
-                navigation={true}
-                pagination={{
-                  clickable: true,
-                }}
-                modules={[EffectFade, Navigation, Pagination]}
-                className="mySwiper"
-              >
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/UMA-ROOM-SCENE-1200x1200-1.webp" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/MIA-ROOM-SCENE-1200x1200-1.webp" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/MAI-ROOM-SCENE-1200x1200-1.webp" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIA-ROOM-SCENE-1200x1200-1.webp " />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/IVY-ROOM-SCENE-1200x1200-1.webp" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/ELI-ROOM-SCENE-1200x1200-1.webp" />
-                </SwiperSlide>
-              </Swiper>
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence>
     </>
   );
 };

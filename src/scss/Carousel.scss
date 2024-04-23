@@ -70,7 +70,27 @@
     
   }
 
-  
+  .openModalcpf{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.918);
+    transition: 0.5s;
+    z-index: 40 !important;
+}
+.modal-button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+}
 
   //MEDIA QUERIES
 

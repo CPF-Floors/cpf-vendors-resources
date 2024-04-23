@@ -1,6 +1,6 @@
 import React, { useRef, useCallback } from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+
 import useEmblaCarousel from "embla-carousel-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -14,8 +14,9 @@ import { EffectFade, Navigation, Pagination } from "swiper/modules";
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
 import "../scss/ModalCarousel.scss";
+import { Link } from "react-router-dom";
 
-const RoomSceneDeco54 = () => {
+const DecotileInstallation = () => {
   //MODAL CAROUSEL
 
   const [openModal, SetOpenModal] = useState(false);
@@ -45,57 +46,25 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-LORETO-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/DECOTILE-ELI_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
-                <h3 style={{ marginTop: "40px" }}>Gaia Loreto</h3>
+                <h3 style={{ marginTop: "40px" }}>Eli</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-VICTORIA-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/DECOTILE-LIA_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
-                <h3 style={{ marginTop: "40px" }}>Gaia Victoria</h3>
+                <h3 style={{ marginTop: "40px" }}>Lia</h3>
               </div>
             </Link>
 
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SELENA-CRUDO-ROOM-SCENE-1200x1200-1.webp"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Selena Crudo</h3>
-              </div>
-            </Link>
-
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/12/TANGO-ALSACE-ROOM-SCENE-1200x1200.webp"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Tango Alsace</h3>
-              </div>
-            </Link>
-
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TANGO-SANTORINI-LROOM-SCENE-1200x1200-1.webp"
-                  alt=""
-                  onClick={() => SetOpenModal(!openModal)}
-                />
-                <h3 style={{ marginTop: "40px" }}>Tango Santorini</h3>
-              </div>
-            </Link>
           </div>
         </div>
 
@@ -140,19 +109,10 @@ const RoomSceneDeco54 = () => {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-LORETO-ROOM-SCENE-1200x1200-1.webp" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/DECOTILE-ELI_Mesa-de-trabajo-1.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-VICTORIA-ROOM-SCENE-1200x1200-1.webp" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SELENA-CRUDO-ROOM-SCENE-1200x1200-1.webp" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TANGO-ALSACE-ROOM-SCENE-1200x1200-1.webp" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TANGO-SANTORINI-LROOM-SCENE-1200x1200-1.webp" />
+                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/DECOTILE-LIA_Mesa-de-trabajo-1.png" />
                 </SwiperSlide>
               </Swiper>
             </motion.div>
@@ -162,4 +122,4 @@ const RoomSceneDeco54 = () => {
     </>
   );
 };
-export default RoomSceneDeco54;
+export default DecotileInstallation;
