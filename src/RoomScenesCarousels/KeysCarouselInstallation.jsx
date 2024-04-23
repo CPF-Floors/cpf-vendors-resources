@@ -45,7 +45,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/1-SUNSET-WALNUT-KEYS-M.jpg"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/KEYS-SUNSET-WALNUT_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -56,7 +56,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-SUNNY-OAK-KEYS-M.jpg"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/KEYS-SUNNY-OAK_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -67,7 +67,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-SANDY-BEACH-KEYS-M.jpg"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/KEYS-SANDY-BEACH_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -78,7 +78,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-SAND-DUNES-KEYS-M.jpg"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/KEYS-SAND-DUNES_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -89,7 +89,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/2-GRAY-BEACH-KEYS-M.jpg"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/KEYS-GRAY-BEACH_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -100,7 +100,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/7-COCOA-BEACH-KEYS-M.jpg"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/KEYS-COCOA-BEACH_Mesa-de-trabajo-1.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
@@ -111,7 +111,7 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/9-COASTAL-GRAY-KEYS-M.jpg"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/KEYS-COASTAL-GRAY-18.png"
                   alt=""
                   onClick={() => SetOpenModal(!openModal)}
                 />
