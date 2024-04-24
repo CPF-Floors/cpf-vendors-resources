@@ -36,12 +36,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/12/ELI-ROOM-SCENE-1024x1024.webp"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-27-jpg.webp"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://cpffloors.com/wp-content/uploads/2022/12/ELI-ROOM-SCENE-1024x1024.webp"
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-27-jpg.webp"
                     );
                   }}
                 />
@@ -52,12 +52,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/UMA-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-32-jpg.webp"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/UMA-ROOM-SCENE-1200x1200-1.webp"
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-32-jpg.webp"
                     );
                   }}
                 />
@@ -68,12 +68,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2023/06/IVY-ROOM-SCENE-1024x1024.webp"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-28-jpg.webp"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://cpffloors.com/wp-content/uploads/2023/06/IVY-ROOM-SCENE-1024x1024.webp"
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-28-jpg.webp"
                     );
                   }}
                 />
@@ -85,12 +85,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/12/LIA-ROOM-SCENE.jpg"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-29-jpg.webp"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://cpffloors.com/wp-content/uploads/2022/12/LIA-ROOM-SCENE.jpg"
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-29-jpg.webp"
                     );
                   }}
                 />
@@ -101,12 +101,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2023/06/MAI-ROOM-SCENE-1024x1024.webp"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-30-jpg.webp"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://cpffloors.com/wp-content/uploads/2023/06/MAI-ROOM-SCENE-1024x1024.webp"
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-30-jpg.webp"
                     );
                   }}
                 />
@@ -117,12 +117,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2023/06/MIA-ROOM-SCENE-1024x1024.webp"
+                  src="https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-31-jpg.webp"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://cpffloors.com/wp-content/uploads/2023/06/MIA-ROOM-SCENE-1024x1024.webp"
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-31-jpg.webp"
                     );
                   }}
                 />
