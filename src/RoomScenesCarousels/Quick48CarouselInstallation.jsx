@@ -1,28 +1,18 @@
 import React, { useRef, useCallback } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import useEmblaCarousel from "embla-carousel-react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import Modal from "react-modal";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from "swiper/modules";
+import useEmblaCarousel from "embla-carousel-react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
 import "../scss/ModalCarousel.scss";
 
 const RoomSceneDeco54 = () => {
-  //MODAL CAROUSEL
-
-  const [openModal, SetOpenModal] = useState(false);
-
-  //
-
   const [emblaRef, emblaApi] = useEmblaCarousel();
+  const [openModal, setOpenModal] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
@@ -42,13 +32,17 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
-
-          <Link style={{ margin: "25px", color: "black" }}>
+            <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
                   src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-CHERRY-BLOSSOM_Mesa-de-trabajo-1.png"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-CHERRY-BLOSSOM_Mesa-de-trabajo-1.png"
+                    );
+                  }}
                 />
                 <h3 style={{ marginTop: "40px" }}>Cherry Blossom</h3>
               </div>
@@ -59,7 +53,12 @@ const RoomSceneDeco54 = () => {
                 <img
                   src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-RUSTIC-PINE_Mesa-de-trabajo-1.png"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-RUSTIC-PINE_Mesa-de-trabajo-1.png"
+                    );
+                  }}
                 />
                 <h3 style={{ marginTop: "40px" }}>Rustic Pine</h3>
               </div>
@@ -70,7 +69,12 @@ const RoomSceneDeco54 = () => {
                 <img
                   src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-SILVER-COLLAGE_Mesa-de-trabajo-1.png"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-SILVER-COLLAGE_Mesa-de-trabajo-1.png"
+                    );
+                  }}
                 />
                 <h3 style={{ marginTop: "40px" }}>Silver Collage</h3>
               </div>
@@ -81,7 +85,12 @@ const RoomSceneDeco54 = () => {
                 <img
                   src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-METAL-MIX-12.png"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-METAL-MIX-12.png"
+                    );
+                  }}
                 />
                 <h3 style={{ marginTop: "40px" }}>Metal Mix</h3>
               </div>
@@ -92,7 +101,12 @@ const RoomSceneDeco54 = () => {
                 <img
                   src="https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-SARA-OAK_Mesa-de-trabajo-1.png"
                   alt=""
-                  onClick={() => SetOpenModal(!openModal)}
+                  onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://staging.cpffloors.com/wp-content/uploads/2024/04/QUICK48-SARA-OAK_Mesa-de-trabajo-1.png"
+                    );
+                  }}
                 />
                 <h3 style={{ marginTop: "40px" }}>Sara Oak</h3>
               </div>
@@ -108,55 +122,22 @@ const RoomSceneDeco54 = () => {
             <i className="fa-solid fa-arrow-right"></i>
           </button>
         </div>
+
+        <Modal
+          isOpen={openModal}
+          onRequestClose={() => setOpenModal(false)}
+          className="openModalcpf Modal"
+        >
+          <img
+            src={selectedImage}
+            alt=""
+            style={{ maxWidth: "100%", maxHeight: "100%" }}
+          />
+          <button className="modal-button" onClick={() => setOpenModal(false)}>
+            <i className="fa-solid fa-xmark"></i>
+          </button>
+        </Modal>
       </motion.div>
-
-      {/* MODAL CAROUSEL */}
-
-      <AnimatePresence initial={false}>
-        {openModal && (
-          <>
-            <motion.div
-              className="modal-carousel"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-            >
-              <div
-                className="close-modal-carousel"
-                onClick={() => SetOpenModal(false)}
-              >
-                <i className="fa-solid fa-xmark"></i>
-              </div>
-
-              {/*CAROUSEL*/}
-
-              <Swiper
-                spaceBetween={30}
-                effect={"fade"}
-                navigation={true}
-                pagination={{
-                  clickable: true,
-                }}
-                modules={[EffectFade, Navigation, Pagination]}
-                className="mySwiper"
-              >
-                <SwiperSlide>
-                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/20210311_135732-rotated.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/8-METAL-MIX-Q48-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/8-CHERRY-BLOSSOM-Q48-M.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/03/3-SARA-OAK-Q48-M.jpg" />
-                </SwiperSlide>
-              </Swiper>
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence>
     </>
   );
 };

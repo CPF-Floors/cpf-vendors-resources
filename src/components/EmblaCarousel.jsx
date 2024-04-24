@@ -106,18 +106,7 @@ const EmblaCarousel = () => {
               <img src="https://staging.cpffloors.com/wp-content/uploads/2024/04/evolve.png" alt="" />
             </div>
           </Link>
-
-
-
-
-
-
-
-
-
-
-
-
+          
         </div>
       </div>
       <button className="embla__prev" onClick={scrollPrev}>
