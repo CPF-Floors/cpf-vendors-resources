@@ -20,9 +20,6 @@ function Merch() {
 
         <>
         <motion.div className="merch-banner"
-          initial={{y:-600}}
-          animate={{y:0}}
-          transition={{duration:2}}
         >
             <h1>Merch</h1>
         </motion.div>
