@@ -43,7 +43,7 @@ function PhotoBankInspire() {
           </Link>
         </button>
       </div>
-      <div className="photobank-container" style={{ paddingBottom: "120px" }}>
+      <div className="photobank-container" style={{ paddingBottom: "40px" }}>
         <h2>Room Scenes - Inspire Black Edition</h2>
 
         <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>

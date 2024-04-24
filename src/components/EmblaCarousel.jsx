@@ -53,7 +53,7 @@ const EmblaCarousel = () => {
             style={{ margin: "30px" }}
           >
             <div className="embla__slide">
-              <img src="/cpf-vendors-resources/assets/HYDROWOOD-1.png" alt="" />
+              <img src="https://staging.cpffloors.com/wp-content/uploads/2024/04/hydrowood-jpg.webp" alt="" />
             </div>
           </Link>
           <Link
@@ -88,6 +88,36 @@ const EmblaCarousel = () => {
               <img src="/cpf-vendors-resources/assets/rect7.png" alt="" />
             </div>
           </Link>
+
+          <Link
+            to="/cpf-vendors-resources/photo-bank/supreme"
+            style={{ margin: "30px" }}
+          >
+            <div className="embla__slide">
+              <img src="https://staging.cpffloors.com/wp-content/uploads/2024/04/supreme-jpg.webp" alt="" />
+            </div>
+          </Link>
+
+          <Link
+            to="/cpf-vendors-resources/photo-bank/evolve"
+            style={{ margin: "30px" }}
+          >
+            <div className="embla__slide">
+              <img src="https://staging.cpffloors.com/wp-content/uploads/2024/04/evolve.png" alt="" />
+            </div>
+          </Link>
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </div>
       <button className="embla__prev" onClick={scrollPrev}>

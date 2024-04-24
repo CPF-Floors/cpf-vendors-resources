@@ -16,7 +16,7 @@ function PhotoBankDeco54() {
     <>
       <Header />
 
-      <div className="photobank-container" style={{ paddingBottom: "120px" }}>
+      <div className="photobank-container" style={{ paddingBottom: "40px" }}>
         <h2 style={{marginTop:'180px'}}>Room Scenes - Deco54</h2>
         <div
           style={{

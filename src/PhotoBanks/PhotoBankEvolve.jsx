@@ -14,7 +14,7 @@ function PhotoBankDeco54() {
   return (
     <>
       <Header />
-      <div className="photobank-container" style={{paddingBottom:"120px"}}>
+      <div className="photobank-container" style={{paddingBottom:"40px"}}>
         <h2 style={{marginTop:'180px'}}>Room Scenes - Evolve</h2>
         <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
           <CDropdown>
