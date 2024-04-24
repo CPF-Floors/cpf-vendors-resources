@@ -150,9 +150,9 @@ const RoomSceneDeco54 = () => {
           <img
             src={selectedImage}
             alt=""
-            style={{ maxWidth: "70%", maxHeight: "70%", marginTop: "80px" }}
+            style={{ maxWidth: "100%", maxHeight: "100%" }}
           />
-          <button className="modal-button" onClick={() => setOpenModal(false)}>Close</button>
+          <button className="modal-button" onClick={() => setOpenModal(false)}><i className="fa-solid fa-xmark"></i></button>
         </Modal>
 
       </motion.div>
