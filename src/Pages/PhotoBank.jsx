@@ -8,6 +8,7 @@ import EmblaCarousel from "../components/EmblaCarousel";
 //
 import "../scss/PhotoBank.scss";
 import { color } from "framer-motion";
+import Footer from "../components/Footer";
 
 function PhotoBank() {
   return (
@@ -21,6 +22,7 @@ function PhotoBank() {
               <h3 style={{color: 'white', fontSize: '30px'}}>Photo Bank</h3>
             </div>
             <EmblaCarousel />
+            <Footer />
           </>
         </div>
       </Suspense>
