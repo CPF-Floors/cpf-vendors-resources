@@ -35,80 +35,80 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALAS-BRUNO-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-34.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALAS-BRUNO-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-34.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Kalas Bruno</h3>
+                <h3 style={{ marginTop: "40px" }}>Bruno Kalas Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALAS-NOZ-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-36.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALAS-NOZ-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-36.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Kalas Noz</h3>
+                <h3 style={{ marginTop: "40px" }}>Noz Kalas Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALMAR-BLANCO-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-37.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALMAR-BLANCO-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-37.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Kalmar Blanco</h3>
+                <h3 style={{ marginTop: "40px" }}>White Kalmar Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALMAR-ESENCIA-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-35.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/KALMAR-ESENCIA-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-35.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Kalmar Esencia</h3>
+                <h3 style={{ marginTop: "40px" }}>Essence Kalmar Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/ROBLE-TWILIGHT-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-33.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/ROBLE-TWILIGHT-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-33.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Roble Twilight</h3>
+                <h3 style={{ marginTop: "40px" }}>Twilight Oak</h3>
               </div>
             </Link>
           </div>

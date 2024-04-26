@@ -36,80 +36,80 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-LORETO-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-38.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-LORETO-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-38.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Gaia Loreto</h3>
+                <h3 style={{ marginTop: "40px" }}>Loreto Gaia Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-VICTORIA-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-41.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/GAIA-VICTORIA-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-41.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Gaia Victoria</h3>
+                <h3 style={{ marginTop: "40px" }}>Raw Selena Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SELENA-CRUDO-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-42.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/SELENA-CRUDO-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-42.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Selena Crudo</h3>
+                <h3 style={{ marginTop: "40px" }}>Victoria Gaia Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/12/TANGO-ALSACE-ROOM-SCENE-1200x1200.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-40.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://cpffloors.com/wp-content/uploads/2022/12/TANGO-ALSACE-ROOM-SCENE-1200x1200.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-40.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Tango Alsace</h3>
+                <h3 style={{ marginTop: "40px" }}>Alsace Tango Ash</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/TANGO-SANTORINI-LROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-39.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/TANGO-SANTORINI-LROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-39.png"
                     );
                   }}
                 />
-                <h3 style={{ marginTop: "40px" }}>Tango Santorini</h3>
+                <h3 style={{ marginTop: "40px" }}>Santorini Tango Ash</h3>
               </div>
             </Link>
           </div>

@@ -37,12 +37,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BALANCED-OAK-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-82.png"
                   alt=""
                                     onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/BALANCED-OAK-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-82.png"
                     );
                   }}
                 />
@@ -53,12 +53,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BLASS-GRAY-ROOM-SCENE-jpg-2048x2048.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-83.png"
                   alt=""
                                     onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/BLASS-GRAY-ROOM-SCENE-jpg-2048x2048.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-83.png"
                     );
                   }}
                 />
@@ -69,12 +69,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BRUT-OAK-ROOM-SCENE-jpg-2048x2048.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-84.png"
                   alt=""
                                     onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/BRUT-OAK-ROOM-SCENE-jpg-2048x2048.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-84.png"
                     );
                   }}
                 />
@@ -85,12 +85,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/CERISE-ROOM-SCENE-copia-jpg-2048x2048.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-85.png"
                   alt=""
                                     onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/CERISE-ROOM-SCENE-copia-jpg-2048x2048.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-85.png"
                     );
                   }}
                 />
@@ -101,12 +101,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/COFFEE-CREAM-ROOM-SCENE-jpg-2048x2048.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-86.png"
                   alt=""
                                     onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/COFFEE-CREAM-ROOM-SCENE-jpg-2048x2048.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-86.png"
                     );
                   }}
                 />
@@ -117,28 +117,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SUNSET-WALNUT-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-88.png"
                   alt=""
                                     onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/SUNSET-WALNUT-ROOM-SCENE-1200x1200-1.webp"
-                    );
-                  }}
-                />
-                <h3 style={{ marginTop: "40px" }}>Sunset Walnut</h3>
-              </div>
-            </Link>
-
-            <Link style={{ margin: "25px", color: "black" }}>
-              <div className="embla__slide">
-                <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/DARK-CREME-ROOM-SCENE-jpg-2048x2048.webp"
-                  alt=""
-                                    onClick={() => {
-                    setOpenModal(true);
-                    setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/DARK-CREME-ROOM-SCENE-jpg-2048x2048.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-88.png"
                     );
                   }}
                 />
@@ -149,16 +133,32 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SLATE-ROOM-SCENE-jpg-2048x2048.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-89.png"
                   alt=""
                                     onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/SLATE-ROOM-SCENE-jpg-2048x2048.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-89.png"
                     );
                   }}
                 />
                 <h3 style={{ marginTop: "40px" }}>Slate</h3>
+              </div>
+            </Link>
+
+            <Link style={{ margin: "25px", color: "black" }}>
+              <div className="embla__slide">
+                <img
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-87.png"
+                  alt=""
+                                    onClick={() => {
+                    setOpenModal(true);
+                    setSelectedImage(
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-87.png"
+                    );
+                  }}
+                />
+                <h3 style={{ marginTop: "40px" }}>Creme Brulee</h3>
               </div>
             </Link>
           </div>

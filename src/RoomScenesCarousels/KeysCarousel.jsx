@@ -36,12 +36,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Coastal-Gray-room-scene-2-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-56.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/Coastal-Gray-room-scene-2-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-56.png"
                     );
                   }}
                 />
@@ -52,12 +52,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Cocoa-Beach-room-scene-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-57.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/Cocoa-Beach-room-scene-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-57.png"
                     );
                   }}
                 />
@@ -68,12 +68,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/GRAY-BEACH-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-58.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/GRAY-BEACH-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-58.png"
                     );
                   }}
                 />
@@ -84,12 +84,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Light-sand-room-scene-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-59.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/Light-sand-room-scene-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-59.png"
                     );
                   }}
                 />
@@ -100,12 +100,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/Sand-dunes-room-scenes-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-60.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/Sand-dunes-room-scenes-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-60.png"
                     );
                   }}
                 />
@@ -116,12 +116,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SANDY-BEACH-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-61.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/SANDY-BEACH-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-61.png"
                     );
                   }}
                 />
@@ -132,12 +132,12 @@ const RoomSceneDeco54 = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SUNSET-WALNUT-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-62.png"
                   alt=""
                   onClick={() => {
                     setOpenModal(true);
                     setSelectedImage(
-                      "https://dealers.cpffloors.com/wp-content/uploads/2024/02/SUNSET-WALNUT-ROOM-SCENE-1200x1200-1.webp"
+                      "https://stagingdealers.cpffloors.com/wp-content/uploads/2024/04/banners_Mesa-de-trabajo-1-copia-62.png"
                     );
                   }}
                 />
